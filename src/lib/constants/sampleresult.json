@@ -1,0 +1,61 @@
+{
+	"rate": "min",
+	"products": [
+		{
+			"type": "component",
+			"id": 7,
+			"amount": 60,
+			"using_recipe": 5,
+			"tier": 1,
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 6,
+					"amount": 60,
+					"using_recipe": 4,
+					"tier": 2,
+					"ingredients": [
+						{
+							"type": "component",
+							"id": 3,
+							"amount": 60,
+							"using_recipe": 1,
+							"ingredients": [
+								{
+									"type": "component",
+									"id": 1,
+									"amount": 60,
+									"using_recipe": null,
+									"ingredients": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "component",
+					"id": 5,
+					"amount": 60,
+					"using_recipe": 3,
+					"ingredients": [
+						{
+							"type": "component",
+							"id": 3,
+							"amount": 60,
+							"using_recipe": 1,
+							"ingredients": [
+								{
+									"type": "component",
+									"id": 1,
+									"amount": 60,
+									"using_recipe": null,
+									"ingredients": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

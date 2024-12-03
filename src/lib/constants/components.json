@@ -1,0 +1,60 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"name": "Iron Ore",
+			"from_recipes": [],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 1,
+			"name": "Copper Ore",
+			"from_recipes": [],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 2,
+			"name": "Iron Ingot",
+			"from_recipes": [0],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 3,
+			"name": "Copper Ingot",
+			"from_recipes": [1],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 4,
+			"name": "Magnet",
+			"from_recipes": [2],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 5,
+			"name": "Magnetic Coil",
+			"from_recipes": [3],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 6,
+			"name": "Circuit Board",
+			"from_recipes": [4],
+			"in_recipes": [],
+			"src": ""
+		},
+		{
+			"id": 7,
+			"name": "Electromagnetic Matrix",
+			"from_recipes": [5],
+			"in_recipes": [],
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/c/cd/Electromagnetic_Matrix.png"
+		}
+	]
+}

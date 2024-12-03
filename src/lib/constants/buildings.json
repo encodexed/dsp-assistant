@@ -1,0 +1,44 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"name": "Arc Smelter",
+			"mark": 1,
+			"speed_multiplier": 1,
+			"recipes": [0, 1, 2],
+			"from_recipes": [],
+			"power_usage_kW": 360,
+			"src": ""
+		},
+		{
+			"id": 1,
+			"name": "Assembler",
+			"mark": 1,
+			"speed_multiplier": 0.75,
+			"recipes": [],
+			"from_recipes": [],
+			"power_usage_kW": 270,
+			"src": ""
+		},
+		{
+			"id": 2,
+			"name": "Mining Machine",
+			"mark": 1,
+			"speed_multiplier": 1,
+			"recipes": [],
+			"from_recipes": [],
+			"power_usage_kW": 420,
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/1/1b/Mining_Machine.png"
+		},
+		{
+			"id": 3,
+			"name": "Matrix Lab",
+			"mark": 1,
+			"speed_multiplier": 1,
+			"recipes": [1],
+			"from_recipes": [],
+			"power_usage_kW": 480,
+			"src": ""
+		}
+	]
+}

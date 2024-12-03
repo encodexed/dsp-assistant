@@ -1,0 +1,139 @@
+{
+	"data": [
+		{
+			"id": 0,
+			"description": "Iron Ingot",
+			"produced_by": [0],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 0,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 2,
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 1,
+			"description": "Copper Ingot",
+			"produced_by": [0],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 1,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 3,
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 2,
+			"description": "Magnet",
+			"produced_by": [0],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 0,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 4,
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1.5
+		},
+		{
+			"id": 3,
+			"description": "Magnetic Coil",
+			"produced_by": [1],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 4,
+					"amount": 2
+				},
+				{
+					"type": "component",
+					"id": 3,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 5,
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 4,
+			"description": "Circuit Board",
+			"produced_by": [1],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 2,
+					"amount": 2
+				},
+				{
+					"type": "component",
+					"id": 3,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 6,
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 5,
+			"description": "Electromagnetic Matrix",
+			"produced_by": [3],
+			"ingredients": [
+				{
+					"type": "component",
+					"id": 5,
+					"amount": 1
+				},
+				{
+					"type": "component",
+					"id": 6,
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"type": "component",
+					"id": 7,
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		}
+	]
+}
