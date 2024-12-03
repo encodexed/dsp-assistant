@@ -5,7 +5,9 @@ const sortInputs = (input: Input) => {
 	console.log({ structuredInput });
 	const sortedInput = sortInputByTier(structuredInput);
 	console.log({ sortedInput });
-	return sortedInput;
+	const tieredInput = tierInputs(sortedInput);
+	console.log({ tieredInput });
+	return tieredInput;
 };
 
 const structureInput = (input: Input) => {
@@ -41,6 +43,27 @@ const sortInputByTier = (inputs: Input[]) => {
 	}
 
 	return sortedInputs;
+};
+
+const tierInputs = (input: Input[]) => {
+	const tiers: Input[][] = [];
+	const high = input[input.length - 1].tier;
+
+	let index = 0;
+	let tier = 1;
+	let arr: Input[] = [];
+	while (tier <= high && index < input.length) {
+		if (input[index].tier === tier) {
+			arr.push(input[index]);
+			index++;
+		} else {
+			tiers.push(arr);
+			arr = [];
+			tier++;
+		}
+	}
+	if (arr.length) tiers.push(arr);
+	return tiers;
 };
 
 export default sortInputs;

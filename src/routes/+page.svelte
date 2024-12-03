@@ -98,7 +98,8 @@
 			</div>
 		{/each}
 	</div>
-	<!-- {#if input}
-		{#each tieredInstructions as instruction}{/each}
-	{/if} -->
+	{#if inputUI}
+		<!-- {#each tieredInstructions as instruction}{/each} -->
+		<div>Successfully calculated something</div>
+	{/if}
 </main>
