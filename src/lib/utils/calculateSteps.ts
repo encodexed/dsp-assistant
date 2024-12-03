@@ -11,18 +11,17 @@ const calculateSteps = (targets: Output) => {
 // TODO: Only using the first recipe right now, need to add a choice later
 
 const getIngredients = (target: Product, cumulativeAmt: number, tier: number): Input => {
-	const { type, id, amount } = target;
-	const rid = getData(type, id).from_recipes[0] || null;
-	if (rid) {
+	const { type, id } = target;
+	let rid = getData(type, id).from_recipes[0];
+	if (rid != undefined) {
 		const rd = recipes.data[rid];
 		const cascade: Input[] = rd.ingredients.map((ing) => {
-			const newAmt = amount * ing.amount;
-			return getIngredients(ing, newAmt, tier + 1);
+			return getIngredients(ing, cumulativeAmt * ing.amount, tier + 1);
 		});
 		return {
 			type,
 			id,
-			amount: amount * cumulativeAmt,
+			amount: cumulativeAmt,
 			using_recipe: rid,
 			tier,
 			ingredients: cascade
@@ -31,7 +30,7 @@ const getIngredients = (target: Product, cumulativeAmt: number, tier: number): I
 		return {
 			type,
 			id,
-			amount: amount * cumulativeAmt,
+			amount: cumulativeAmt,
 			using_recipe: null,
 			tier,
 			ingredients: []
@@ -39,7 +38,7 @@ const getIngredients = (target: Product, cumulativeAmt: number, tier: number): I
 	}
 };
 
-const getData = (type: string, id: number): Building | Component => {
+export const getData = (type: string, id: number): Building | Component => {
 	if (type === 'component') return components.data[id];
 	else if (type === 'building') return buildings.data[id];
 	throw error(500, 'Invalid type encountered');

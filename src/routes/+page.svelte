@@ -3,7 +3,7 @@
 	import components from '$lib/constants/components.json';
 	import Actions from '$lib/components/Actions.svelte';
 	import type { Output, ButtonAction, Input } from '$lib/types';
-	import calculateSteps from '$lib/utils/calculateSteps';
+	import calculateSteps, { getData } from '$lib/utils/calculateSteps';
 	import sortInputs from '$lib/utils/sortInputs';
 
 	const cancelBtn = '/icons/red-cross.svg';
@@ -51,7 +51,6 @@
 
 	const handleCalculate = () => {
 		const result = calculateSteps(output);
-		console.log({ result });
 		input = result;
 	};
 
@@ -60,6 +59,10 @@
 			rate: 'min',
 			products: []
 		};
+	};
+
+	export const getQuickName = (type: string, id: number) => {
+		return getData(type, id).name;
 	};
 
 	const handleRemove = (id: number) => {
@@ -99,7 +102,14 @@
 		{/each}
 	</div>
 	{#if inputUI}
-		<!-- {#each tieredInstructions as instruction}{/each} -->
-		<div>Successfully calculated something</div>
+		<div class="flex h-60 w-full flex-col items-center border p-4">
+			{#each inputUI as tier}
+				<div class="flex w-full justify-around">
+					{#each tier as t}
+						<div class="border text-xs">{t.amount} {getQuickName(t.type, t.id)}</div>
+					{/each}
+				</div>
+			{/each}
+		</div>
 	{/if}
 </main>
