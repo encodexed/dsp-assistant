@@ -1,17 +1,21 @@
 export type Product = {
-	type: string;
-	id: number;
+	identifier: string;
 	amount: number;
+};
+
+export type ProductSelection = {
+	name: string;
+	src: string;
+	identifier: string;
 };
 
 export type Output = {
 	rate: 'sec' | 'min';
-	products: Product[];
+	product: Product;
 };
 
 export type Input = {
-	type: string;
-	id: number;
+	identifier: string;
 	amount: number;
 	using_recipe: number | null;
 	tier: number;

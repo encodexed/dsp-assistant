@@ -8,7 +8,7 @@
 			"recipes": [0, 1, 2],
 			"from_recipes": [],
 			"power_usage_kW": 360,
-			"src": ""
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/9/91/Arc_Smelter.png"
 		},
 		{
 			"id": 1,
@@ -18,7 +18,7 @@
 			"recipes": [],
 			"from_recipes": [],
 			"power_usage_kW": 270,
-			"src": ""
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/d/d4/Assembling_Machine_Mk.I.png"
 		},
 		{
 			"id": 2,
@@ -38,7 +38,7 @@
 			"recipes": [1],
 			"from_recipes": [],
 			"power_usage_kW": 480,
-			"src": ""
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/9/92/Matrix_Lab.png"
 		}
 	]
 }

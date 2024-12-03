@@ -2,11 +2,8 @@ import type { Input } from '$lib/types';
 
 const sortInputs = (input: Input) => {
 	const structuredInput = structureInput(input);
-	console.log({ structuredInput });
 	const sortedInput = sortInputByTier(structuredInput);
-	console.log({ sortedInput });
 	const tieredInput = tierInputs(sortedInput);
-	console.log({ tieredInput });
 	return tieredInput;
 };
 

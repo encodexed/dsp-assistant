@@ -6,15 +6,13 @@
 			"produced_by": [0],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 0,
+					"identifier": "c0",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 2,
+					"identifier": "c2",
 					"amount": 1
 				}
 			],
@@ -26,15 +24,13 @@
 			"produced_by": [0],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 1,
+					"identifier": "c1",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 3,
+					"identifier": "c3",
 					"amount": 1
 				}
 			],
@@ -46,15 +42,13 @@
 			"produced_by": [0],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 0,
+					"identifier": "c0",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 4,
+					"identifier": "c4",
 					"amount": 1
 				}
 			],
@@ -66,20 +60,17 @@
 			"produced_by": [1],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 4,
+					"identifier": "c4",
 					"amount": 2
 				},
 				{
-					"type": "component",
-					"id": 3,
+					"identifier": "c3",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 5,
+					"identifier": "c5",
 					"amount": 2
 				}
 			],
@@ -91,20 +82,17 @@
 			"produced_by": [1],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 2,
+					"identifier": "c2",
 					"amount": 2
 				},
 				{
-					"type": "component",
-					"id": 3,
+					"identifier": "c3",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 6,
+					"identifier": "c6",
 					"amount": 2
 				}
 			],
@@ -116,20 +104,17 @@
 			"produced_by": [3],
 			"ingredients": [
 				{
-					"type": "component",
-					"id": 5,
+					"identifier": "c5",
 					"amount": 1
 				},
 				{
-					"type": "component",
-					"id": 6,
+					"identifier": "c6",
 					"amount": 1
 				}
 			],
 			"products": [
 				{
-					"type": "component",
-					"id": 7,
+					"identifier": "c7",
 					"amount": 1
 				}
 			],
