@@ -9,11 +9,6 @@ export type ProductSelection = {
 	identifier: string;
 };
 
-export type Output = {
-	rate: 'sec' | 'min';
-	product: Product;
-};
-
 export type Input = {
 	identifier: string;
 	amount: number;

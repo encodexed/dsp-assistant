@@ -1,11 +1,11 @@
-import type { Output, Product, Building, Recipe, Component, Input } from '$lib/types';
+import type { Product, Building, Recipe, Component, Input } from '$lib/types';
 import components from '$lib/constants/components.json';
 import buildings from '$lib/constants/buildings.json';
 import recipes from '$lib/constants/recipes.json';
 import { error } from '@sveltejs/kit';
 
-const calculateSteps = (targets: Output) => {
-	return getIngredients(targets.product, targets.product.amount, 1);
+const calculateSteps = (target: Product) => {
+	return getIngredients(target, target.amount, 1);
 };
 
 const getIngredients = (target: Product, cumulativeAmt: number, tier: number): Input => {
