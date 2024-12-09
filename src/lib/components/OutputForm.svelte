@@ -26,7 +26,7 @@
 		return selections;
 	};
 
-	let { output, handleCalculate } = $props();
+	let { output = $bindable(), handleCalculate } = $props();
 	const outputSelections = getOutputSelections();
 </script>
 

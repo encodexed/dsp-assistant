@@ -27,7 +27,7 @@
 <main class="h-100 w-100 flex flex-col items-center gap-2 text-sm">
 	<h1 class="bold text-center text-3xl">DSP</h1>
 	<p>What are you trying to achieve today?</p>
-	<OutputForm {output} {handleCalculate} />
+	<OutputForm bind:output {handleCalculate} />
 	{#if inputUI}
 		<OutputTable {inputUI} />
 	{/if}
