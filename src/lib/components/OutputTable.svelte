@@ -3,8 +3,6 @@
 	import { getQuickName } from '$lib/utils/helpers';
 
 	let { inputUI }: { inputUI: Input[][] | null } = $props();
-
-	$effect(() => console.log($state.snapshot(inputUI)));
 </script>
 
 {#if inputUI}
@@ -17,6 +15,12 @@
 							{t.amount}
 							{getQuickName(t.identifier)}
 						</div>
+						{#each t.requiredBuildings as b}
+							<div>
+								Need {b.amountRequired}
+								{getQuickName(b.building)}{b.amountRequired == 1 ? '' : 's'}
+							</div>
+						{/each}
 					</div>
 				{/each}
 			</div>

@@ -57,7 +57,7 @@
 		{
 			"id": 3,
 			"description": "Magnetic Coil",
-			"produced_by": [1],
+			"produced_by": [1, 4, 5],
 			"ingredients": [
 				{
 					"identifier": "c4",
@@ -79,7 +79,7 @@
 		{
 			"id": 4,
 			"description": "Circuit Board",
-			"produced_by": [1],
+			"produced_by": [1, 4, 5],
 			"ingredients": [
 				{
 					"identifier": "c2",

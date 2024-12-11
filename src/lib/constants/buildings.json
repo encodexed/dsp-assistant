@@ -11,7 +11,7 @@
 		},
 		{
 			"id": 1,
-			"name": "Assembler",
+			"name": "Assembler mk.1",
 			"mark": 1,
 			"speed_multiplier": 0.75,
 			"from_recipes": [],
@@ -35,6 +35,24 @@
 			"from_recipes": [],
 			"power_usage_kW": 480,
 			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/9/92/Matrix_Lab.png"
+		},
+		{
+			"id": 4,
+			"name": "Assembler mk.2",
+			"mark": 2,
+			"speed_multiplier": 1,
+			"from_recipes": [],
+			"power_usage_kW": 10000,
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/d/d4/Assembling_Machine_Mk.I.png"
+		},
+		{
+			"id": 5,
+			"name": "Assembler mk.3",
+			"mark": 3,
+			"speed_multiplier": 1.5,
+			"from_recipes": [],
+			"power_usage_kW": 10000,
+			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/d/d4/Assembling_Machine_Mk.I.png"
 		}
 	]
 }

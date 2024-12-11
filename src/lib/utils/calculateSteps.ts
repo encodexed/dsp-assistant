@@ -53,11 +53,14 @@ const getRequiredBuildings = (
 	recipe: Recipe
 ): InputBuilding[] => {
 	const { produced_by, products, base_time_secs } = recipe;
+	// The amount of items produced each time this recipe completes
 	const outputAmount = products.find((item) => item.identifier === identifier)?.amount || 1;
+	// For each building that can complete this recipe, find out how many are needed to hit target
 	return produced_by.map((bid) => {
 		const id = 'b' + bid;
 		const bdata = getData(id) as Building;
-		const actionsPerMin = 60 / (base_time_secs * bdata.speed_multiplier);
+		// How many times the recipe will be completed per minute
+		const actionsPerMin = 60 / (base_time_secs / bdata.speed_multiplier);
 		return {
 			building: id,
 			product: identifier,
