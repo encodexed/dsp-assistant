@@ -23,16 +23,32 @@
 	};
 
 	let shown: InputBuilding | null = $derived(displayedBuilding(selectedBuildings, buildings));
+
+	let buildingCount: number | null = $derived.by(() => {
+		if (!shown && buildings.length) {
+			return isPrecise
+				? round2DP(buildings[0].amountRequired)
+				: Math.ceil(buildings[0].amountRequired);
+		}
+		if (!shown) return null;
+		return isPrecise ? round2DP(shown.amountRequired) : Math.ceil(shown.amountRequired);
+	});
 </script>
 
 {#if shown}
-	<div>
-		{isPrecise ? round2DP(shown.amountRequired) : Math.ceil(shown.amountRequired)} x
+	<p>
+		{buildingCount} x
 		<span class="font-bold"> {getQuickName(shown.identifier)}s</span>
-	</div>
+	</p>
+	<p>
+		{(buildingCount || 0) * shown.powerUsageKW} <span class="font-bold">KW</span>
+	</p>
 {:else if !shown && buildings.length}
-	<div>
-		{isPrecise ? round2DP(buildings[0].amountRequired) : Math.ceil(buildings[0].amountRequired)} x
+	<p>
+		{buildingCount} x
 		<span class="font-bold"> {getQuickName(buildings[0].identifier)}s</span>
-	</div>
+	</p>
+	<p>
+		{(buildingCount || 0) * buildings[0].powerUsageKW} <span class="font-bold">KW</span>
+	</p>
 {/if}

@@ -13,19 +13,21 @@
 
 <div class="flex h-60 w-full flex-col items-center gap-2 p-4">
 	{#each inputUI as tier}
-		<div class="flex w-full justify-around">
+		<div class="flex w-full justify-around border border-red-300">
 			{#each tier as t}
 				<div
-					class="mx-1 flex h-24 w-48 flex-col rounded-lg border border-blue-500 px-2 py-2 text-xs text-black"
+					class="mx-1 flex h-24 w-48 flex-col rounded-lg border border-blue-500 text-xs text-black"
 				>
-					<div class="flex w-full rounded-lg bg-white px-2 py-0.5 text-black">
+					<div class="flex w-full rounded-lg border border-green-300">
 						<img class="h-8 w-8 border" src={getIconSrc(t.identifier)} alt="" />
 						<p>
-							{t.amount}
+							{t.amount} x
 							{getQuickName(t.identifier)}
 						</p>
 					</div>
-					<BuildingReadOut buildings={t.requiredBuildings} {isPrecise} {selectedBuildings} />
+					<div class="flex w-full flex-col rounded-lg border border-purple-300">
+						<BuildingReadOut buildings={t.requiredBuildings} {isPrecise} {selectedBuildings} />
+					</div>
 				</div>
 			{/each}
 		</div>
