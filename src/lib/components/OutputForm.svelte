@@ -2,6 +2,7 @@
 	import type { ProductSelection } from '$lib/types';
 	import components from '$lib/constants/components.json';
 	import buildings from '$lib/constants/buildings.json';
+	import { onMount } from 'svelte';
 
 	const getOutputSelections = () => {
 		const selections: ProductSelection[] = [];
@@ -28,6 +29,8 @@
 
 	let { output = $bindable(), handleCalculate } = $props();
 	const outputSelections = getOutputSelections();
+
+	onMount(() => handleCalculate());
 </script>
 
 <form action="/">

@@ -11,10 +11,18 @@ export type ProductSelection = {
 
 export type Input = {
 	identifier: string;
+	requiredBuildings: InputBuilding[];
 	amount: number;
 	using_recipe: number | null;
 	tier: number;
 	ingredients?: Input[];
+};
+
+export type InputBuilding = {
+	building: string;
+	product: string;
+	amountRequired: number;
+	powerUsageKW: number;
 };
 
 export type ButtonAction = {
@@ -47,7 +55,6 @@ export type Building = {
 	name: string;
 	mark: number;
 	speed_multiplier: number;
-	recipes: number[];
 	from_recipes: number[];
 	power_usage_kW: number;
 	src: string;

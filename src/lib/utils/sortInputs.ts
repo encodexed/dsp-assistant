@@ -12,11 +12,11 @@ const structureInput = (input: Input) => {
 
 	const nextStep = (input: Input) => {
 		const { ingredients } = input;
+		const noIngs = { ...input };
+		delete noIngs.ingredients;
+		allIngredients.push(noIngs);
 		if (ingredients && ingredients.length) {
-			allIngredients.push({ ...input, ingredients: undefined });
 			ingredients.forEach((ing) => nextStep(ing));
-		} else {
-			allIngredients.push({ ...input, ingredients: undefined });
 		}
 	};
 

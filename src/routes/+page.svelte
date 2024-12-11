@@ -1,16 +1,14 @@
 <script lang="ts">
 	import OutputForm from '$lib/components/OutputForm.svelte';
 	import OutputTable from '$lib/components/OutputTable.svelte';
-	import type { ButtonAction, Input, Product } from '$lib/types';
+	import type { Input, Product } from '$lib/types';
 	import calculateSteps from '$lib/utils/calculateSteps';
 	import sortInputs from '$lib/utils/sortInputs';
 
-	let input = $state<Input>();
+	let input = $state<Input | undefined>();
 
-	let inputUI = $derived.by(() => {
-		if (input) {
-			return sortInputs(input);
-		}
+	let inputUI: Input[][] | null = $derived.by(() => {
+		if (input) return sortInputs(input);
 		return null;
 	});
 
@@ -22,6 +20,8 @@
 	const handleCalculate = () => {
 		input = calculateSteps(output);
 	};
+
+	$effect(() => console.log($state.snapshot(input)));
 </script>
 
 <main class="h-100 w-100 flex flex-col items-center gap-2 text-sm">
