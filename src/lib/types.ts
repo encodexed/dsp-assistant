@@ -19,7 +19,7 @@ export type Input = {
 };
 
 export type InputBuilding = {
-	building: string;
+	identifier: string;
 	product: string;
 	amountRequired: number;
 	powerUsageKW: number;

@@ -62,7 +62,7 @@ const getRequiredBuildings = (
 		// How many times the recipe will be completed per minute
 		const actionsPerMin = 60 / (base_time_secs / bdata.speed_multiplier);
 		return {
-			building: id,
+			identifier: id,
 			product: identifier,
 			amountRequired: amount / (outputAmount * actionsPerMin),
 			powerUsageKW: bdata.power_usage_kW
