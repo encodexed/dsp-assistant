@@ -20,8 +20,6 @@
 	const handleCalculate = () => {
 		input = calculateSteps(output);
 	};
-
-	$effect(() => console.log($state.snapshot(input)));
 </script>
 
 <main class="h-100 w-100 flex flex-col items-center gap-2 text-sm">
