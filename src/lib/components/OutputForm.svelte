@@ -39,9 +39,11 @@
 			<input
 				id="amount"
 				bind:value={output.amount}
-				onblur={handleCalculate}
+				onchange={handleCalculate}
 				class="w-16 rounded border border-gray-300 px-2 py-1"
-				type="text"
+				type="number"
+				min="0"
+				step="4"
 			/>
 		</div>
 		<select
