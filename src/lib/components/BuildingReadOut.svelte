@@ -1,21 +1,19 @@
 <script lang="ts">
-	import type { InputBuilding } from '$lib/types';
-	import { getQuickName } from '$lib/utils/helpers';
-
-	const round2DP = (num: number) => Math.round((num + Number.EPSILON) * 100) / 100;
+	import type { BuildingSelection, InputBuilding } from '$lib/types';
+	import { getQuickName, round2DP } from '$lib/utils/helpers';
 
 	let {
 		buildings,
 		isPrecise,
-		selectedBuildings = $bindable()
+		selectedBuildings
 	}: {
 		buildings: InputBuilding[];
 		isPrecise: boolean;
-		selectedBuildings: { assembler: string };
+		selectedBuildings: BuildingSelection;
 	} = $props();
 
 	const displayedBuilding = (
-		selectedBuildings: { assembler: string },
+		selectedBuildings: BuildingSelection,
 		buildings: InputBuilding[]
 	): InputBuilding | null => {
 		const selectedArr = Object.values(selectedBuildings);

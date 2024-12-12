@@ -18,6 +18,10 @@ export type Input = {
 	ingredients?: Input[];
 };
 
+export type BuildingSelection = {
+	assembers: string;
+};
+
 export type InputBuilding = {
 	identifier: string;
 	product: string;
