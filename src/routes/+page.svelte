@@ -1,16 +1,10 @@
 <script lang="ts">
 	import OutputForm from '$lib/components/OutputForm.svelte';
 	import OutputTable from '$lib/components/OutputTable.svelte';
-	import type { Input, Product } from '$lib/types';
+	import type { Product } from '$lib/types';
 	import calculateSteps from '$lib/utils/calculateSteps';
 	import sortInputs from '$lib/utils/sortInputs';
-
-	let input = $state<Input | undefined>();
-
-	let inputUI: Input[][] | null = $derived.by(() => {
-		if (input) return sortInputs(input);
-		return null;
-	});
+	import { inputStore } from '$lib/utils/state.svelte';
 
 	let output = $state<Product>({
 		identifier: 'c7',
@@ -18,7 +12,9 @@
 	});
 
 	const handleCalculate = () => {
-		input = calculateSteps(output);
+		const input = calculateSteps(output);
+		inputStore.data = input;
+		inputStore.ui = sortInputs(input);
 	};
 </script>
 
@@ -26,7 +22,7 @@
 	<h1 class="bold text-center text-3xl">DSP</h1>
 	<p>What are you trying to achieve today?</p>
 	<OutputForm bind:output {handleCalculate} />
-	{#if inputUI}
-		<OutputTable {inputUI} />
+	{#if inputStore.ui}
+		<OutputTable />
 	{/if}
 </main>

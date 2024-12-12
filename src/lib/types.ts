@@ -18,8 +18,14 @@ export type Input = {
 	ingredients?: Input[];
 };
 
+export type InputStore = {
+	data: Input | undefined;
+	ui: Input[][] | null;
+	isPrecise: boolean;
+};
+
 export type BuildingSelection = {
-	assembers: string;
+	assemblers: string;
 };
 
 export type InputBuilding = {

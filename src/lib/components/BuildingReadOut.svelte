@@ -1,15 +1,12 @@
 <script lang="ts">
 	import type { BuildingSelection, InputBuilding } from '$lib/types';
 	import { getQuickName, round2DP } from '$lib/utils/helpers';
+	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 
 	let {
-		buildings,
-		isPrecise,
-		selectedBuildings
+		buildings
 	}: {
 		buildings: InputBuilding[];
-		isPrecise: boolean;
-		selectedBuildings: BuildingSelection;
 	} = $props();
 
 	const displayedBuilding = (
@@ -20,16 +17,16 @@
 		return buildings.find((b) => selectedArr.includes(b.identifier)) || null;
 	};
 
-	let shown: InputBuilding | null = $derived(displayedBuilding(selectedBuildings, buildings));
+	let shown: InputBuilding | null = $derived(displayedBuilding(buildingSelections, buildings));
 
 	let buildingCount: number | null = $derived.by(() => {
 		if (!shown && buildings.length) {
-			return isPrecise
+			return inputStore.isPrecise
 				? round2DP(buildings[0].amountRequired)
 				: Math.ceil(buildings[0].amountRequired);
 		}
 		if (!shown) return null;
-		return isPrecise ? round2DP(shown.amountRequired) : Math.ceil(shown.amountRequired);
+		return inputStore.isPrecise ? round2DP(shown.amountRequired) : Math.ceil(shown.amountRequired);
 	});
 </script>
 
