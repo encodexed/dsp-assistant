@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ResourceCard from './ResourceCard.svelte';
+	import ResourceCards from './ResourceCards.svelte';
 	import SelectBuildingType from './SelectBuildingType.svelte';
 	import { assemblers } from '$lib/constants/buildingTypes';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
@@ -15,5 +15,5 @@
 		range={assemblers}
 		bind:state={buildingSelections.assemblers}
 	/>
-	<ResourceCard />
+	<ResourceCards />
 {/if}

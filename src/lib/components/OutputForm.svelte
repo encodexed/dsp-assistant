@@ -33,14 +33,14 @@
 	onMount(() => handleCalculate());
 </script>
 
-<form action="/">
+<form class="text-gray-800" action="/">
 	<div class="flex h-8 gap-2">
 		<div class="flex flex-col justify-center">
 			<input
 				id="amount"
 				bind:value={output.amount}
 				onchange={handleCalculate}
-				class="w-16 rounded border border-gray-300 px-2 py-1"
+				class="w-20 rounded border border-gray-300 px-2 py-1"
 				type="number"
 				min="0"
 				step="4"
@@ -57,7 +57,7 @@
 			{/each}
 		</select>
 		<div class="flex items-center">
-			<p>/ minute</p>
+			<p class="text-stone-100">/ minute</p>
 		</div>
 	</div>
 </form>
