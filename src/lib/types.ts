@@ -47,7 +47,6 @@ export type Component = {
 	id: number;
 	name: string;
 	from_recipes: number[];
-	in_recipes: number[];
 	src: string;
 };
 

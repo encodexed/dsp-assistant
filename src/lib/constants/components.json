@@ -4,57 +4,49 @@
 			"id": 0,
 			"name": "Iron Ore",
 			"from_recipes": [],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/8/87/Iron_Ore.png"
+			"src": "/icons/components/c0.png"
 		},
 		{
 			"id": 1,
 			"name": "Copper Ore",
 			"from_recipes": [],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/7/78/Copper_Ore.png"
+			"src": "/icons/components/c1.png"
 		},
 		{
 			"id": 2,
 			"name": "Iron Ingot",
 			"from_recipes": [0],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/0/0a/Iron_Ingot.png"
+			"src": "/icons/components/c2.png"
 		},
 		{
 			"id": 3,
 			"name": "Copper Ingot",
 			"from_recipes": [1],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/0/00/Copper_Ingot.png"
+			"src": "/icons/components/c3.png"
 		},
 		{
 			"id": 4,
 			"name": "Magnet",
 			"from_recipes": [2],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/8/8c/Magnet.png"
+			"src": "/icons/components/c4.png"
 		},
 		{
 			"id": 5,
 			"name": "Magnetic Coil",
 			"from_recipes": [3],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/a/af/Magnetic_Coil.png"
+			"src": "/icons/components/c5.png"
 		},
 		{
 			"id": 6,
 			"name": "Circuit Board",
 			"from_recipes": [4],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/a/a7/Circuit_Board.png"
+			"src": "/icons/components/c6.png"
 		},
 		{
 			"id": 7,
 			"name": "Electromagnetic Matrix",
 			"from_recipes": [5],
-			"in_recipes": [],
-			"src": "https://static.wikia.nocookie.net/dyson-sphere-program/images/c/cd/Electromagnetic_Matrix.png"
+			"src": "/icons/components/c7.png"
 		}
 	]
 }
