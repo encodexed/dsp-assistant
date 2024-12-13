@@ -3,6 +3,7 @@
 	import SelectBuildingType from './SelectBuildingType.svelte';
 	import { assemblers } from '$lib/constants/buildingTypes';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
+	import TotalRequirements from './TotalRequirements.svelte';
 </script>
 
 {#if inputStore.ui}
@@ -15,5 +16,6 @@
 		range={assemblers}
 		bind:state={buildingSelections.assemblers}
 	/>
+	<TotalRequirements />
 	<ResourceCards />
 {/if}

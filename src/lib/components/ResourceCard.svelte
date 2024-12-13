@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { BuildingSelection, InputBuilding } from '$lib/types';
-	import { getIconSrc, round2DP } from '$lib/utils/helpers';
+	import { formatPower, getIconSrc, round2DP } from '$lib/utils/helpers';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 
 	let { identifier, amount, buildings } = $props();
@@ -28,10 +28,7 @@
 		const powerConsumption = shown
 			? buildingCount * shown.powerUsageKW
 			: buildingCount * buildings[0].powerUsageKW;
-		const digits = powerConsumption.toString().length;
-		if (digits <= 3) return powerConsumption + ' KW';
-		if (digits <= 6) return round2DP(powerConsumption / 1000) + ' MW';
-		return round2DP(powerConsumption / 100000) + ' GW';
+		return formatPower(powerConsumption);
 	};
 </script>
 
