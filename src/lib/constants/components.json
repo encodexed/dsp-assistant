@@ -14,39 +14,657 @@
 		},
 		{
 			"id": 2,
-			"name": "Iron Ingot",
-			"from_recipes": [0],
+			"name": "Stone",
+			"from_recipes": [],
 			"src": "/icons/components/c2.png"
 		},
 		{
 			"id": 3,
-			"name": "Copper Ingot",
-			"from_recipes": [1],
+			"name": "Coal",
+			"from_recipes": [],
 			"src": "/icons/components/c3.png"
 		},
 		{
 			"id": 4,
-			"name": "Magnet",
-			"from_recipes": [2],
+			"name": "Silicon Ore",
+			"from_recipes": [],
 			"src": "/icons/components/c4.png"
 		},
 		{
 			"id": 5,
-			"name": "Magnetic Coil",
-			"from_recipes": [3],
+			"name": "Titanium Ore",
+			"from_recipes": [],
 			"src": "/icons/components/c5.png"
 		},
 		{
 			"id": 6,
-			"name": "Circuit Board",
-			"from_recipes": [4],
+			"name": "Water",
+			"from_recipes": [],
 			"src": "/icons/components/c6.png"
 		},
 		{
 			"id": 7,
-			"name": "Electromagnetic Matrix",
-			"from_recipes": [5],
+			"name": "Crude Oil",
+			"from_recipes": [],
 			"src": "/icons/components/c7.png"
+		},
+		{
+			"id": 8,
+			"name": "Hydrogen",
+			"from_recipes": [],
+			"src": "/icons/components/c8.png"
+		},
+		{
+			"id": 9,
+			"name": "Deuterium",
+			"from_recipes": [],
+			"src": "/icons/components/c9.png"
+		},
+		{
+			"id": 10,
+			"name": "Antimatter",
+			"from_recipes": [],
+			"src": "/icons/components/c10.png"
+		},
+		{
+			"id": 11,
+			"name": "Core Element",
+			"from_recipes": [],
+			"src": "/icons/components/c11.png"
+		},
+		{
+			"id": 12,
+			"name": "Critical Photon",
+			"from_recipes": [],
+			"src": "/icons/components/c12.png"
+		},
+		{
+			"id": 13,
+			"name": "Kimberlite Ore",
+			"from_recipes": [],
+			"src": "/icons/components/c13.png"
+		},
+		{
+			"id": 14,
+			"name": "Iron Ingot",
+			"from_recipes": [],
+			"src": "/icons/components/c14.png"
+		},
+		{
+			"id": 15,
+			"name": "Copper Ingot",
+			"from_recipes": [],
+			"src": "/icons/components/c15.png"
+		},
+		{
+			"id": 16,
+			"name": "Stone Brick",
+			"from_recipes": [],
+			"src": "/icons/components/c16.png"
+		},
+		{
+			"id": 17,
+			"name": "Energetic Graphite",
+			"from_recipes": [],
+			"src": "/icons/components/c17.png"
+		},
+		{
+			"id": 18,
+			"name": "High-Purity Silicon",
+			"from_recipes": [],
+			"src": "/icons/components/c18.png"
+		},
+		{
+			"id": 19,
+			"name": "Titanium Ingot",
+			"from_recipes": [],
+			"src": "/icons/components/c19.png"
+		},
+		{
+			"id": 20,
+			"name": "Sulfuric Acid",
+			"from_recipes": [],
+			"src": "/icons/components/c20.png"
+		},
+		{
+			"id": 21,
+			"name": "Refined Oil",
+			"from_recipes": [],
+			"src": "/icons/components/c21.png"
+		},
+		{
+			"id": 22,
+			"name": "Hydrogen Fuel Rod",
+			"from_recipes": [],
+			"src": "/icons/components/c22.png"
+		},
+		{
+			"id": 23,
+			"name": "Deuterium Fuel Rod",
+			"from_recipes": [],
+			"src": "/icons/components/c23.png"
+		},
+		{
+			"id": 24,
+			"name": "Antimatter Fuel Rod",
+			"from_recipes": [],
+			"src": "/icons/components/c24.png"
+		},
+		{
+			"id": 25,
+			"name": "Strange Annihilation Fuel Rod",
+			"from_recipes": [],
+			"src": "/icons/components/c25.png"
+		},
+		{
+			"id": 26,
+			"name": "Missile Set",
+			"from_recipes": [],
+			"src": "/icons/components/c26.png"
+		},
+		{
+			"id": 27,
+			"name": "Fractal Silicon",
+			"from_recipes": [],
+			"src": "/icons/components/c27.png"
+		},
+		{
+			"id": 28,
+			"name": "Magnet",
+			"from_recipes": [],
+			"src": "/icons/components/c28.png"
+		},
+		{
+			"id": 29,
+			"name": "Magnetic Coil",
+			"from_recipes": [],
+			"src": "/icons/components/c29.png"
+		},
+		{
+			"id": 30,
+			"name": "Glass",
+			"from_recipes": [],
+			"src": "/icons/components/c30.png"
+		},
+		{
+			"id": 31,
+			"name": "Diamond",
+			"from_recipes": [],
+			"src": "/icons/components/c31.png"
+		},
+		{
+			"id": 32,
+			"name": "Crystal Silicon",
+			"from_recipes": [],
+			"src": "/icons/components/c32.png"
+		},
+		{
+			"id": 33,
+			"name": "Titanium Alloy",
+			"from_recipes": [],
+			"src": "/icons/components/c33.png"
+		},
+		{
+			"id": 34,
+			"name": "Combustible Unit",
+			"from_recipes": [],
+			"src": "/icons/components/c34.png"
+		},
+		{
+			"id": 35,
+			"name": "Plastic",
+			"from_recipes": [],
+			"src": "/icons/components/c35.png"
+		},
+		{
+			"id": 36,
+			"name": "Organic Crystal",
+			"from_recipes": [],
+			"src": "/icons/components/c36.png"
+		},
+		{
+			"id": 37,
+			"name": "Graphene",
+			"from_recipes": [],
+			"src": "/icons/components/c37.png"
+		},
+		{
+			"id": 38,
+			"name": "Annihilation Constraint Sphere",
+			"from_recipes": [],
+			"src": "/icons/components/c38.png"
+		},
+		{
+			"id": 39,
+			"name": "Magnum Ammo Box",
+			"from_recipes": [],
+			"src": "/icons/components/c39.png"
+		},
+		{
+			"id": 40,
+			"name": "Supersonic Missile Set",
+			"from_recipes": [],
+			"src": "/icons/components/c40.png"
+		},
+		{
+			"id": 41,
+			"name": "Grating Crystal",
+			"from_recipes": [],
+			"src": "/icons/components/c41.png"
+		},
+		{
+			"id": 42,
+			"name": "Steel",
+			"from_recipes": [],
+			"src": "/icons/components/c42.png"
+		},
+		{
+			"id": 43,
+			"name": "Circuit Board",
+			"from_recipes": [],
+			"src": "/icons/components/c43.png"
+		},
+		{
+			"id": 44,
+			"name": "Prism",
+			"from_recipes": [],
+			"src": "/icons/components/c44.png"
+		},
+		{
+			"id": 45,
+			"name": "Electric Motor",
+			"from_recipes": [],
+			"src": "/icons/components/c45.png"
+		},
+		{
+			"id": 46,
+			"name": "Microcrystalline Component",
+			"from_recipes": [],
+			"src": "/icons/components/c46.png"
+		},
+		{
+			"id": 47,
+			"name": "Proliferator Mk.1",
+			"from_recipes": [],
+			"src": "/icons/components/c47.png"
+		},
+		{
+			"id": 48,
+			"name": "Explosive Unit",
+			"from_recipes": [],
+			"src": "/icons/components/c48.png"
+		},
+		{
+			"id": 49,
+			"name": "Strange Matter",
+			"from_recipes": [],
+			"src": "/icons/components/c49.png"
+		},
+		{
+			"id": 50,
+			"name": "Titanium Crystal",
+			"from_recipes": [],
+			"src": "/icons/components/c50.png"
+		},
+		{
+			"id": 51,
+			"name": "Carbon Nanotube",
+			"from_recipes": [],
+			"src": "/icons/components/c51.png"
+		},
+		{
+			"id": 52,
+			"name": "Particle Broadband",
+			"from_recipes": [],
+			"src": "/icons/components/c52.png"
+		},
+		{
+			"id": 53,
+			"name": "Titanium Ammo Box",
+			"from_recipes": [],
+			"src": "/icons/components/c53.png"
+		},
+		{
+			"id": 54,
+			"name": "Gravity Missile Set",
+			"from_recipes": [],
+			"src": "/icons/components/c54.png"
+		},
+		{
+			"id": 55,
+			"name": "Spiniform Stalagmite Crystal",
+			"from_recipes": [],
+			"src": "/icons/components/c55.png"
+		},
+		{
+			"id": 56,
+			"name": "Gear",
+			"from_recipes": [],
+			"src": "/icons/components/c56.png"
+		},
+		{
+			"id": 57,
+			"name": "Plasma Exciter",
+			"from_recipes": [],
+			"src": "/icons/components/c57.png"
+		},
+		{
+			"id": 58,
+			"name": "Photon Combiner",
+			"from_recipes": [],
+			"src": "/icons/components/c58.png"
+		},
+		{
+			"id": 59,
+			"name": "Electromagnetic Turbine",
+			"from_recipes": [],
+			"src": "/icons/components/c59.png"
+		},
+		{
+			"id": 60,
+			"name": "Processor",
+			"from_recipes": [],
+			"src": "/icons/components/c60.png"
+		},
+		{
+			"id": 61,
+			"name": "Proliferator Mk.2",
+			"from_recipes": [],
+			"src": "/icons/components/c61.png"
+		},
+		{
+			"id": 62,
+			"name": "Crystal Explosive Unit",
+			"from_recipes": [],
+			"src": "/icons/components/c62.png"
+		},
+		{
+			"id": 63,
+			"name": "Casamir Crystal",
+			"from_recipes": [],
+			"src": "/icons/components/c63.png"
+		},
+		{
+			"id": 64,
+			"name": "Titanium Glass",
+			"from_recipes": [],
+			"src": "/icons/components/c64.png"
+		},
+		{
+			"id": 65,
+			"name": "Plane Filter",
+			"from_recipes": [],
+			"src": "/icons/components/c65.png"
+		},
+		{
+			"id": 66,
+			"name": "Quantum Chip",
+			"from_recipes": [],
+			"src": "/icons/components/c66.png"
+		},
+		{
+			"id": 67,
+			"name": "Superalloy Ammo Box",
+			"from_recipes": [],
+			"src": "/icons/components/c67.png"
+		},
+		{
+			"id": 68,
+			"name": "Shell Set",
+			"from_recipes": [],
+			"src": "/icons/components/c68.png"
+		},
+		{
+			"id": 69,
+			"name": "Unipolar Magnet",
+			"from_recipes": [],
+			"src": "/icons/components/c69.png"
+		},
+		{
+			"id": 70,
+			"name": "Engine",
+			"from_recipes": [],
+			"src": "/icons/components/c70.png"
+		},
+		{
+			"id": 71,
+			"name": "Thruster",
+			"from_recipes": [],
+			"src": "/icons/components/c71.png"
+		},
+		{
+			"id": 72,
+			"name": "Reinforced Thruster",
+			"from_recipes": [],
+			"src": "/icons/components/c72.png"
+		},
+		{
+			"id": 73,
+			"name": "Super-Magnetic Ring",
+			"from_recipes": [],
+			"src": "/icons/components/c73.png"
+		},
+		{
+			"id": 74,
+			"name": "Particle Container",
+			"from_recipes": [],
+			"src": "/icons/components/c74.png"
+		},
+		{
+			"id": 75,
+			"name": "Proliferator Mk.3",
+			"from_recipes": [],
+			"src": "/icons/components/c75.png"
+		},
+		{
+			"id": 76,
+			"name": "Prototype",
+			"from_recipes": [],
+			"src": "/icons/components/c76.png"
+		},
+		{
+			"id": 77,
+			"name": "Precision Drone",
+			"from_recipes": [],
+			"src": "/icons/components/c77.png"
+		},
+		{
+			"id": 78,
+			"name": "Attack Drone",
+			"from_recipes": [],
+			"src": "/icons/components/c78.png"
+		},
+		{
+			"id": 79,
+			"name": "Corvette",
+			"from_recipes": [],
+			"src": "/icons/components/c79.png"
+		},
+		{
+			"id": 80,
+			"name": "Destroyer",
+			"from_recipes": [],
+			"src": "/icons/components/c80.png"
+		},
+		{
+			"id": 81,
+			"name": "Plasma Capsule",
+			"from_recipes": [],
+			"src": "/icons/components/c81.png"
+		},
+		{
+			"id": 82,
+			"name": "High Explosive Shell Set",
+			"from_recipes": [],
+			"src": "/icons/components/c82.png"
+		},
+		{
+			"id": 83,
+			"name": "Fire Ice",
+			"from_recipes": [],
+			"src": "/icons/components/c83.png"
+		},
+		{
+			"id": 84,
+			"name": "Logistics Bot",
+			"from_recipes": [],
+			"src": "/icons/components/c84.png"
+		},
+		{
+			"id": 85,
+			"name": "Logistics Drone",
+			"from_recipes": [],
+			"src": "/icons/components/c85.png"
+		},
+		{
+			"id": 86,
+			"name": "Logistics Vessel",
+			"from_recipes": [],
+			"src": "/icons/components/c86.png"
+		},
+		{
+			"id": 87,
+			"name": "Space Warper",
+			"from_recipes": [],
+			"src": "/icons/components/c87.png"
+		},
+		{
+			"id": 88,
+			"name": "Graviton Lens",
+			"from_recipes": [],
+			"src": "/icons/components/c88.png"
+		},
+		{
+			"id": 89,
+			"name": "Foundation",
+			"from_recipes": [],
+			"src": "/icons/components/c89.png"
+		},
+		{
+			"id": 91,
+			"name": "Solar Sail",
+			"from_recipes": [],
+			"src": "/icons/components/c91.png"
+		},
+		{
+			"id": 92,
+			"name": "Frame Material",
+			"from_recipes": [],
+			"src": "/icons/components/c92.png"
+		},
+		{
+			"id": 93,
+			"name": "Dyson Sphere Component",
+			"from_recipes": [],
+			"src": "/icons/components/c93.png"
+		},
+		{
+			"id": 94,
+			"name": "Small Carrier Rocket",
+			"from_recipes": [],
+			"src": "/icons/components/c94.png"
+		},
+		{
+			"id": 95,
+			"name": "Antimatter Capsule",
+			"from_recipes": [],
+			"src": "/icons/components/c95.png"
+		},
+		{
+			"id": 96,
+			"name": "Crystal Shell Set",
+			"from_recipes": [],
+			"src": "/icons/components/c96.png"
+		},
+		{
+			"id": 97,
+			"name": "Log",
+			"from_recipes": [],
+			"src": "/icons/components/c97.png"
+		},
+		{
+			"id": 98,
+			"name": "Electromagnetic Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c98.png"
+		},
+		{
+			"id": 99,
+			"name": "Energy Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c99.png"
+		},
+		{
+			"id": 100,
+			"name": "Structure Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c100.png"
+		},
+		{
+			"id": 101,
+			"name": "Information Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c101.png"
+		},
+		{
+			"id": 102,
+			"name": "Gravity Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c102.png"
+		},
+		{
+			"id": 103,
+			"name": "Universe Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c103.png"
+		},
+		{
+			"id": 104,
+			"name": "Dark Fog Matrix",
+			"from_recipes": [],
+			"src": "/icons/components/c104.png"
+		},
+		{
+			"id": 105,
+			"name": "Energy Shard",
+			"from_recipes": [],
+			"src": "/icons/components/c105.png"
+		},
+		{
+			"id": 106,
+			"name": "Silicon-based Neuron",
+			"from_recipes": [],
+			"src": "/icons/components/c21.png"
+		},
+		{
+			"id": 107,
+			"name": "Negentropy Singularity",
+			"from_recipes": [],
+			"src": "/icons/components/c107.png"
+		},
+		{
+			"id": 108,
+			"name": "Matter Recombinator",
+			"from_recipes": [],
+			"src": "/icons/components/c108.png"
+		},
+		{
+			"id": 109,
+			"name": "Jamming Capsule",
+			"from_recipes": [],
+			"src": "/icons/components/c109.png"
+		},
+		{
+			"id": 110,
+			"name": "Suppressing Capsule",
+			"from_recipes": [],
+			"src": "/icons/components/c110.png"
+		},
+		{
+			"id": 111,
+			"name": "Plant Fuel",
+			"from_recipes": [],
+			"src": "/icons/components/c111.png"
 		}
 	]
 }
