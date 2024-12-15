@@ -62,7 +62,6 @@ export type Recipe = {
 export type Building = {
 	id: number;
 	name: string;
-	mark: number;
 	speed_multiplier: number;
 	from_recipes: number[];
 	power_usage_kW: number;
