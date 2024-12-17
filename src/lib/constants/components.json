@@ -339,193 +339,193 @@
 		{
 			"id": 56,
 			"name": "Gear",
-			"from_recipes": [],
+			"from_recipes": [69],
 			"src": "/icons/components/c56.png"
 		},
 		{
 			"id": 57,
 			"name": "Plasma Exciter",
-			"from_recipes": [],
+			"from_recipes": [70],
 			"src": "/icons/components/c57.png"
 		},
 		{
 			"id": 58,
 			"name": "Photon Combiner",
-			"from_recipes": [],
+			"from_recipes": [71, 72],
 			"src": "/icons/components/c58.png"
 		},
 		{
 			"id": 59,
 			"name": "Electromagnetic Turbine",
-			"from_recipes": [],
+			"from_recipes": [73],
 			"src": "/icons/components/c59.png"
 		},
 		{
 			"id": 60,
 			"name": "Processor",
-			"from_recipes": [],
+			"from_recipes": [74],
 			"src": "/icons/components/c60.png"
 		},
 		{
 			"id": 61,
 			"name": "Proliferator Mk.2",
-			"from_recipes": [],
+			"from_recipes": [75],
 			"src": "/icons/components/c61.png"
 		},
 		{
 			"id": 62,
 			"name": "Crystal Explosive Unit",
-			"from_recipes": [],
+			"from_recipes": [76],
 			"src": "/icons/components/c62.png"
 		},
 		{
 			"id": 63,
 			"name": "Casamir Crystal",
-			"from_recipes": [],
+			"from_recipes": [77, 78],
 			"src": "/icons/components/c63.png"
 		},
 		{
 			"id": 64,
 			"name": "Titanium Glass",
-			"from_recipes": [],
+			"from_recipes": [79],
 			"src": "/icons/components/c64.png"
 		},
 		{
 			"id": 65,
 			"name": "Plane Filter",
-			"from_recipes": [],
+			"from_recipes": [80],
 			"src": "/icons/components/c65.png"
 		},
 		{
 			"id": 66,
 			"name": "Quantum Chip",
-			"from_recipes": [],
+			"from_recipes": [81],
 			"src": "/icons/components/c66.png"
 		},
 		{
 			"id": 67,
 			"name": "Superalloy Ammo Box",
-			"from_recipes": [],
+			"from_recipes": [82],
 			"src": "/icons/components/c67.png"
 		},
 		{
 			"id": 68,
 			"name": "Shell Set",
-			"from_recipes": [],
+			"from_recipes": [83],
 			"src": "/icons/components/c68.png"
 		},
 		{
 			"id": 69,
 			"name": "Unipolar Magnet",
-			"from_recipes": [],
+			"from_recipes": [84],
 			"src": "/icons/components/c69.png"
 		},
 		{
 			"id": 70,
 			"name": "Engine",
-			"from_recipes": [],
+			"from_recipes": [85],
 			"src": "/icons/components/c70.png"
 		},
 		{
 			"id": 71,
 			"name": "Thruster",
-			"from_recipes": [],
+			"from_recipes": [86],
 			"src": "/icons/components/c71.png"
 		},
 		{
 			"id": 72,
 			"name": "Reinforced Thruster",
-			"from_recipes": [],
+			"from_recipes": [87],
 			"src": "/icons/components/c72.png"
 		},
 		{
 			"id": 73,
 			"name": "Super-Magnetic Ring",
-			"from_recipes": [],
+			"from_recipes": [88],
 			"src": "/icons/components/c73.png"
 		},
 		{
 			"id": 74,
 			"name": "Particle Container",
-			"from_recipes": [],
+			"from_recipes": [89, 90],
 			"src": "/icons/components/c74.png"
 		},
 		{
 			"id": 75,
 			"name": "Proliferator Mk.3",
-			"from_recipes": [],
+			"from_recipes": [91],
 			"src": "/icons/components/c75.png"
 		},
 		{
 			"id": 76,
 			"name": "Prototype",
-			"from_recipes": [],
+			"from_recipes": [92],
 			"src": "/icons/components/c76.png"
 		},
 		{
 			"id": 77,
 			"name": "Precision Drone",
-			"from_recipes": [],
+			"from_recipes": [93],
 			"src": "/icons/components/c77.png"
 		},
 		{
 			"id": 78,
 			"name": "Attack Drone",
-			"from_recipes": [],
+			"from_recipes": [94],
 			"src": "/icons/components/c78.png"
 		},
 		{
 			"id": 79,
 			"name": "Corvette",
-			"from_recipes": [],
+			"from_recipes": [95],
 			"src": "/icons/components/c79.png"
 		},
 		{
 			"id": 80,
 			"name": "Destroyer",
-			"from_recipes": [],
+			"from_recipes": [96],
 			"src": "/icons/components/c80.png"
 		},
 		{
 			"id": 81,
 			"name": "Plasma Capsule",
-			"from_recipes": [],
+			"from_recipes": [97],
 			"src": "/icons/components/c81.png"
 		},
 		{
 			"id": 82,
 			"name": "High Explosive Shell Set",
-			"from_recipes": [],
+			"from_recipes": [98],
 			"src": "/icons/components/c82.png"
 		},
 		{
 			"id": 83,
 			"name": "Fire Ice",
-			"from_recipes": [],
+			"from_recipes": [99, 100],
 			"src": "/icons/components/c83.png"
 		},
 		{
 			"id": 84,
 			"name": "Logistics Bot",
-			"from_recipes": [],
+			"from_recipes": [101],
 			"src": "/icons/components/c84.png"
 		},
 		{
 			"id": 85,
 			"name": "Logistics Drone",
-			"from_recipes": [],
+			"from_recipes": [102],
 			"src": "/icons/components/c85.png"
 		},
 		{
 			"id": 86,
-			"name": "Logistics Vessel",
-			"from_recipes": [],
+			"name": "Interstellar Logistics Vessel",
+			"from_recipes": [103],
 			"src": "/icons/components/c86.png"
 		},
 		{
 			"id": 87,
 			"name": "Space Warper",
-			"from_recipes": [],
+			"from_recipes": [104, 105],
 			"src": "/icons/components/c87.png"
 		},
 		{

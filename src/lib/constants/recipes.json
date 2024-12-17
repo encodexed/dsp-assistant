@@ -1346,6 +1346,829 @@
 				}
 			],
 			"base_time_secs": 2
+		},
+		{
+			"id": 69,
+			"description": "Gear",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c56",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 70,
+			"description": "Plasma Exciter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c29",
+					"amount": 4
+				},
+				{
+					"identifier": "c44",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c57",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 71,
+			"description": "Photon Combiner from Prisms",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c44",
+					"amount": 2
+				},
+				{
+					"identifier": "c43",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c58",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 72,
+			"description": "Photon Combiner from Grating Crystal",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c41",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c58",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 73,
+			"description": "Electromagnetic Turbine",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c26",
+					"amount": 2
+				},
+				{
+					"identifier": "c45",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c59",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 74,
+			"description": "Processor",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c46",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c60",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 75,
+			"description": "Proliferator Mk.2",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c47",
+					"amount": 2
+				},
+				{
+					"identifier": "c31",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c61",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 76,
+			"description": "Crystal Explosive Unit",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c48",
+					"amount": 8
+				},
+				{
+					"identifier": "c63",
+					"amount": 1
+				},
+				{
+					"identifier": "c32",
+					"amount": 8
+				}
+			],
+			"products": [
+				{
+					"identifier": "c62",
+					"amount": 8
+				}
+			],
+			"base_time_secs": 24
+		},
+		{
+			"id": 77,
+			"description": "Casimir Crystal from Titanium Crystals",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c50",
+					"amount": 1
+				},
+				{
+					"identifier": "c37",
+					"amount": 2
+				},
+				{
+					"identifier": "c8",
+					"amount": 12
+				}
+			],
+			"products": [
+				{
+					"identifier": "c63",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 78,
+			"description": "Casimir Crystal from Grating Crystals",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c41",
+					"amount": 8
+				},
+				{
+					"identifier": "c37",
+					"amount": 2
+				},
+				{
+					"identifier": "c8",
+					"amount": 12
+				}
+			],
+			"products": [
+				{
+					"identifier": "c63",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 79,
+			"description": "Titanium Glass",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c30",
+					"amount": 2
+				},
+				{
+					"identifier": "c19",
+					"amount": 2
+				},
+				{
+					"identifier": "c6",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c64",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 80,
+			"description": "Plane Filter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c63",
+					"amount": 1
+				},
+				{
+					"identifier": "c64",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c65",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 12
+		},
+		{
+			"id": 81,
+			"description": "Quantum Chip",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c60",
+					"amount": 2
+				},
+				{
+					"identifier": "c65",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c66",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 82,
+			"description": "Superalloy Ammo Box",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c53",
+					"amount": 1
+				},
+				{
+					"identifier": "c33",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c67",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 83,
+			"description": "Shell Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c15",
+					"amount": 9
+				},
+				{
+					"identifier": "c34",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c68",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1.5
+		},
+		{
+			"id": 84,
+			"description": "Unipolar Magnet",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c69",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 85,
+			"description": "Engine",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c29",
+					"amount": 1
+				},
+				{
+					"identifier": "c15",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c70",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 86,
+			"description": "Thruster",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 2
+				},
+				{
+					"identifier": "c15",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c71",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 87,
+			"description": "Reinforced Thruster",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 5
+				},
+				{
+					"identifier": "c59",
+					"amount": 5
+				}
+			],
+			"products": [
+				{
+					"identifier": "c72",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 88,
+			"description": "Super-Magnetic Ring",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c59",
+					"amount": 2
+				},
+				{
+					"identifier": "c28",
+					"amount": 3
+				},
+				{
+					"identifier": "c17",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c73",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 89,
+			"description": "Particle Container from Graphene",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c59",
+					"amount": 2
+				},
+				{
+					"identifier": "c15",
+					"amount": 2
+				},
+				{
+					"identifier": "c37",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c74",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 90,
+			"description": "Particle Container from Unipolar Magnets",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c69",
+					"amount": 10
+				},
+				{
+					"identifier": "c15",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c74",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 91,
+			"description": "Proliferator Mk.3",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c61",
+					"amount": 2
+				},
+				{
+					"identifier": "c51",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c75",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 92,
+			"description": "Prototype",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 3
+				},
+				{
+					"identifier": "c70",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c57",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c76",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 93,
+			"description": "Precision Drone",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c76",
+					"amount": 1
+				},
+				{
+					"identifier": "c59",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c58",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c40",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 94,
+			"description": "Attack Drone",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c76",
+					"amount": 1
+				},
+				{
+					"identifier": "c59",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 1
+				},
+				{
+					"identifier": "c74",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c78",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 95,
+			"description": "Corvette",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 5
+				},
+				{
+					"identifier": "c72",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 2
+				},
+				{
+					"identifier": "c74",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c79",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 96,
+			"description": "Destroyer",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c92",
+					"amount": 20
+				},
+				{
+					"identifier": "c72",
+					"amount": 4
+				},
+				{
+					"identifier": "c60",
+					"amount": 4
+				},
+				{
+					"identifier": "c49",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c80",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 97,
+			"description": "Plasma Capsule",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c37",
+					"amount": 1
+				},
+				{
+					"identifier": "c28",
+					"amount": 2
+				},
+				{
+					"identifier": "c9",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "c81",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 98,
+			"description": "High Explosive Shell Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c68",
+					"amount": 1
+				},
+				{
+					"identifier": "c19",
+					"amount": 6
+				},
+				{
+					"identifier": "c48",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c82",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 99,
+			"description": "Fire Ice from veins",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c83",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 100,
+			"description": "Fire Ice from Gas Giants Exploitation",
+			"produced_by": "b26",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c83",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 101,
+			"description": "Logistics Bot",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c70",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c84",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 102,
+			"description": "Logistics Drone",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 5
+				},
+				{
+					"identifier": "c60",
+					"amount": 2
+				},
+				{
+					"identifier": "c71",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c85",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 103,
+			"description": "Interstellar Logistics Vessel",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 10
+				},
+				{
+					"identifier": "c60",
+					"amount": 10
+				},
+				{
+					"identifier": "c72",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c86",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
 		}
 	]
 }
