@@ -259,7 +259,7 @@
 		{
 			"id": 32,
 			"name": "Advanced Mining Machine",
-			"speed_multiplier": 1,
+			"speed_multiplier": 2,
 			"from_recipes": [],
 			"power_usage_kW": 2940,
 			"src": "/icons/buildings/b32.png"

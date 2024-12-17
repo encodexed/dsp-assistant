@@ -11,7 +11,7 @@ export type ProductSelection = {
 
 export type Input = {
 	identifier: string;
-	requiredBuildings: InputBuilding[];
+	requiredBuildings: InputBuilding | null;
 	amount: number;
 	using_recipe: number | null;
 	tier: number;
@@ -25,7 +25,11 @@ export type InputStore = {
 };
 
 export type BuildingSelection = {
+	smelters: string;
 	assemblers: string;
+	miners: string;
+	plants: string;
+	labs: string;
 };
 
 export type InputBuilding = {
@@ -53,7 +57,7 @@ export type Component = {
 export type Recipe = {
 	id: number;
 	description: string;
-	produced_by: number[];
+	produced_by: string;
 	ingredients: Product[];
 	products: Product[];
 	base_time_secs: number;
@@ -64,6 +68,6 @@ export type Building = {
 	name: string;
 	speed_multiplier: number;
 	from_recipes: number[];
-	power_usage_kW: number;
+	power_usage_kW: number | null;
 	src: string;
 };

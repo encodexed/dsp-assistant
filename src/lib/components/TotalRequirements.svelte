@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { assemblers } from '$lib/constants/buildingTypes';
 	import type { InputBuilding } from '$lib/types';
-	import { formatPower, getIconSrc, getSelectedBuilding } from '$lib/utils/helpers';
+	import { formatPower, getIconSrc } from '$lib/utils/helpers';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 	import { onMount } from 'svelte';
 
@@ -29,15 +29,11 @@
 
 		flat.forEach((item) => {
 			const { requiredBuildings } = item;
-			const building: InputBuilding | null = getSelectedBuilding(
-				requiredBuildings,
-				buildingSelections
-			);
 
-			if (building) {
-				results.power += building.amountRequired * building.powerUsageKW;
-				results.assemblers += assemblers.includes(building.identifier)
-					? Math.ceil(building.amountRequired)
+			if (requiredBuildings) {
+				results.power += requiredBuildings.amountRequired * requiredBuildings.powerUsageKW;
+				results.assemblers += assemblers.includes(requiredBuildings.identifier)
+					? Math.ceil(requiredBuildings.amountRequired)
 					: 0;
 			}
 		});

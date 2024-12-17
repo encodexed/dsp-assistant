@@ -7,7 +7,7 @@
 	import { inputStore } from '$lib/utils/state.svelte';
 
 	let output = $state<Product>({
-		identifier: 'c7',
+		identifier: 'c45',
 		amount: 60
 	});
 

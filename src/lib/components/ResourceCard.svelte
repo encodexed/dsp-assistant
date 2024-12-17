@@ -5,28 +5,30 @@
 
 	let { identifier, amount, buildings } = $props();
 
-	const displayedBuilding = (
-		selectedBuildings: BuildingSelection,
-		buildings: InputBuilding[]
-	): InputBuilding | null => {
-		const selectedArr = Object.values(selectedBuildings);
-		const s = buildings.find((b) => selectedArr.includes(b.identifier));
-		if (s) return s;
-		if (buildings.length) return buildings[0];
-		return null;
-	};
+	// const displayedBuilding = (
+	// 	selectedBuildings: BuildingSelection,
+	// 	buildings: InputBuilding[]
+	// ): InputBuilding | null => {
+	// 	const selectedArr = Object.values(selectedBuildings);
+	// 	const s = buildings.find((b) => selectedArr.includes(b.identifier));
+	// 	if (s) return s;
+	// 	if (buildings.length) return buildings[0];
+	// 	return null;
+	// };
 
-	let shown: InputBuilding | null = $derived(displayedBuilding(buildingSelections, buildings));
+	// let shown: InputBuilding | null = $derived(displayedBuilding(buildingSelections, buildings));
 
 	let buildingCount: number = $derived.by(() => {
-		if (!shown) return 0;
-		return inputStore.isPrecise ? round2DP(shown.amountRequired) : Math.ceil(shown.amountRequired);
+		if (!buildings) return 0;
+		return inputStore.isPrecise
+			? round2DP(buildings.amountRequired)
+			: Math.ceil(buildings.amountRequired);
 	});
 
 	// Slightly bugged while precision mode is active
 	const calculatePowerConsumption = () => {
-		const powerConsumption = shown
-			? buildingCount * shown.powerUsageKW
+		const powerConsumption = buildings
+			? buildingCount * buildings.powerUsageKW
 			: buildingCount * buildings[0].powerUsageKW;
 		return formatPower(powerConsumption);
 	};
@@ -44,9 +46,9 @@
 		</p>
 	</div>
 	<div class="flex flex-col justify-between p-1 text-xs tracking-tight text-stone-100">
-		{#if shown}
+		{#if buildings}
 			<span class="flex items-center gap-1">
-				<img class="h-6 w-6" src={getIconSrc(shown.identifier)} alt="" />x {buildingCount}</span
+				<img class="h-6 w-6" src={getIconSrc(buildings.identifier)} alt="" />x {buildingCount}</span
 			>
 			<span class="flex items-center gap-1">
 				<img class="h-5 w-5" src="/icons/power.svg" alt="" />{calculatePowerConsumption()}</span

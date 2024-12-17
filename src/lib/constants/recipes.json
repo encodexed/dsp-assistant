@@ -2,8 +2,318 @@
 	"data": [
 		{
 			"id": 0,
+			"description": "Killing the Dark Fog",
+			"produced_by": "",
+			"ingredients": [],
+			"products": [],
+			"base_time_secs": 0.01
+		},
+		{
+			"id": 1,
+			"description": "Iron Ore",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c0",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 2,
+			"description": "Copper Ore",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c1",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 3,
+			"description": "Stone",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c2",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 4,
+			"description": "Coal",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c3",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 5,
+			"description": "Silicon Ore from Silicon veins",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c4",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 6,
+			"description": "Silicon Ore from Stone",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c2",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "c4",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 7,
+			"description": "Titanium Ore",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c5",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 8,
+			"description": "Water",
+			"produced_by": "b33",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c6",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1.2
+		},
+		{
+			"id": 9,
+			"description": "Crude Oil",
+			"produced_by": "b34",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c7",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 0.4
+		},
+		{
+			"id": 10,
+			"description": "Hydrogen from Plasma Extract Refining (Crude Oil)",
+			"produced_by": "b35",
+			"ingredients": [
+				{
+					"identifier": "c7",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c21",
+					"amount": 2
+				},
+				{
+					"identifier": "c8",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 11,
+			"description": "Hydrogen from Applied Superconductor (Fire Ice)",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c83",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c8",
+					"amount": 1
+				},
+				{
+					"identifier": "c37",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 12,
+			"description": "Hydrogen from X-Ray Cracking (Refined Oil and Hydrogen)",
+			"produced_by": "b35",
+			"ingredients": [
+				{
+					"identifier": "c8",
+					"amount": 2
+				},
+				{
+					"identifier": "c21",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c8",
+					"amount": 3
+				},
+				{
+					"identifier": "c17",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 13,
+			"description": "Hydrogen from Dirac Inversion Mechanism (Critical Photons)",
+			"produced_by": "b39",
+			"ingredients": [
+				{
+					"identifier": "c12",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c8",
+					"amount": 2
+				},
+				{
+					"identifier": "c10",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 14,
+			"description": "Hydrogen from Gas Giants Exploitation",
+			"produced_by": "b26",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c8",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 15,
+			"description": "Deuterium from Fractionation (Hydrogen)",
+			"produced_by": "b36",
+			"ingredients": [
+				{
+					"identifier": "c8",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c9",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 100
+		},
+		{
+			"id": 16,
+			"description": "Deuterium from Particle Collision (Hydrogen)",
+			"produced_by": "b39",
+			"ingredients": [
+				{
+					"identifier": "c8",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "c9",
+					"amount": 5
+				}
+			],
+			"base_time_secs": 2.5
+		},
+		{
+			"id": 17,
+			"description": "Deuterium from Gas Giants Exploitation",
+			"produced_by": "b26",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c9",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 18,
+			"description": "Kimberlite Ore",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c13",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 19,
+			"description": "Critical Photons",
+			"produced_by": "b11",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c12",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 0.01
+		},
+		{
+			"id": 20,
 			"description": "Iron Ingot",
-			"produced_by": [0],
+			"produced_by": "smelters",
 			"ingredients": [
 				{
 					"identifier": "c0",
@@ -12,11 +322,1030 @@
 			],
 			"products": [
 				{
-					"identifier": "c2",
+					"identifier": "c14",
 					"amount": 1
 				}
 			],
 			"base_time_secs": 1
+		},
+		{
+			"id": 21,
+			"description": "Copper Ingot",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c1",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c15",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 22,
+			"description": "Stone Brick",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c2",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c16",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 23,
+			"description": "Energetic Graphite (Coal)",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c3",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c17",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 24,
+			"description": "High-purity Silicon",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c4",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c18",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 25,
+			"description": "Titanium Ingot",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c5",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c19",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 26,
+			"description": "Sulfuric Acid from Sulfuric Oceans",
+			"produced_by": "b33",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c20",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1.2
+		},
+		{
+			"id": 27,
+			"description": "Sulfuric Acid from Chemical Engineering",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c21",
+					"amount": 6
+				},
+				{
+					"identifier": "c2",
+					"amount": 8
+				},
+				{
+					"identifier": "c6",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "c20",
+					"amount": 4
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 28,
+			"description": "Refined Oil from Reforming Refinement",
+			"produced_by": "b35",
+			"ingredients": [
+				{
+					"identifier": "c21",
+					"amount": 2
+				},
+				{
+					"identifier": "c8",
+					"amount": 1
+				},
+				{
+					"identifier": "c3",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c21",
+					"amount": 3
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 29,
+			"description": "Hydrogen Fuel Rod",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c8",
+					"amount": 10
+				},
+				{
+					"identifier": "c19",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c22",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 30,
+			"description": "Deuterium Fuel Rod",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 1
+				},
+				{
+					"identifier": "c5",
+					"amount": 20
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c23",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 12
+		},
+		{
+			"id": 31,
+			"description": "Antimatter Fuel Rod",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c10",
+					"amount": 12
+				},
+				{
+					"identifier": "c8",
+					"amount": 12
+				},
+				{
+					"identifier": "c38",
+					"amount": 1
+				},
+				{
+					"identifier": "c33",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c24",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 24
+		},
+		{
+			"id": 32,
+			"description": "Strange Annihilation Fuel Rod",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c24",
+					"amount": 8
+				},
+				{
+					"identifier": "c11",
+					"amount": 1
+				},
+				{
+					"identifier": "c49",
+					"amount": 2
+				},
+				{
+					"identifier": "c92",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c25",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 32
+		},
+		{
+			"id": 33,
+			"description": "Missile Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c15",
+					"amount": 6
+				},
+				{
+					"identifier": "c43",
+					"amount": 3
+				},
+				{
+					"identifier": "c34",
+					"amount": 2
+				},
+				{
+					"identifier": "c70",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c26",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 34,
+			"description": "Fractal Silicon",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c27",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 35,
+			"description": "Magnet",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c0",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c28",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1.5
+		},
+		{
+			"id": 36,
+			"description": "Magnetic Coil",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c28",
+					"amount": 2
+				},
+				{
+					"identifier": "c15",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c29",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 37,
+			"description": "Glass",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c2",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c30",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 38,
+			"description": "Diamonds from Energetic Graphite",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c17",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c31",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 39,
+			"description": "Diamonds from Kimberlite Ore",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c13",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c31",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1.5
+		},
+		{
+			"id": 40,
+			"description": "Crystal Silicon from High-purity Silicon",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c18",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c32",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 41,
+			"description": "Crystal Silicon from Fractal Silicon",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c27",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c32",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1.5
+		},
+		{
+			"id": 42,
+			"description": "Titanium Alloy",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c20",
+					"amount": 8
+				},
+				{
+					"identifier": "c42",
+					"amount": 4
+				},
+				{
+					"identifier": "c19",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "c33",
+					"amount": 4
+				}
+			],
+			"base_time_secs": 12
+		},
+		{
+			"id": 43,
+			"description": "Combustible Unit",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c3",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c34",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 44,
+			"description": "Plastic",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c21",
+					"amount": 2
+				},
+				{
+					"identifier": "c17",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c35",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 45,
+			"description": "Organic Crystal from Plastic",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c35",
+					"amount": 2
+				},
+				{
+					"identifier": "c21",
+					"amount": 1
+				},
+				{
+					"identifier": "c6",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c36",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 46,
+			"description": "Organic Crystal from trees",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c6",
+					"amount": 10
+				},
+				{
+					"identifier": "c97",
+					"amount": 20
+				},
+				{
+					"identifier": "c111",
+					"amount": 30
+				}
+			],
+			"products": [
+				{
+					"identifier": "c36",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 47,
+			"description": "Organic Crystal from veins",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c36",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 48,
+			"description": "Graphene from Energetic Graphite",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c17",
+					"amount": 3
+				},
+				{
+					"identifier": "c20",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c37",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 49,
+			"description": "Graphene from Fire Ice",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c83",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c8",
+					"amount": 1
+				},
+				{
+					"identifier": "c37",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 50,
+			"description": "Annihilation Constraint Sphere",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c74",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c38",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 20
+		},
+		{
+			"id": 51,
+			"description": "Magnum Ammo Box",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c15",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c39",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 52,
+			"description": "Supersonic Missile Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c26",
+					"amount": 2
+				},
+				{
+					"identifier": "c60",
+					"amount": 4
+				},
+				{
+					"identifier": "c48",
+					"amount": 2
+				},
+				{
+					"identifier": "c71",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c40",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 53,
+			"description": "Grating Crystal",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c41",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 54,
+			"description": "Steel",
+			"produced_by": "smelters",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c42",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 55,
+			"description": "Circuit Board",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c15",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c43",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 56,
+			"description": "Prism",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c30",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c44",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 57,
+			"description": "Electric Motor",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c56",
+					"amount": 1
+				},
+				{
+					"identifier": "c29",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c45",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 58,
+			"description": "Microcrystalline Component",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c18",
+					"amount": 2
+				},
+				{
+					"identifier": "c15",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c46",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 59,
+			"description": "Proliferator Mk.1",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c3",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c47",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 0.5
+		},
+		{
+			"id": 60,
+			"description": "Explosive Unit",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c34",
+					"amount": 2
+				},
+				{
+					"identifier": "c35",
+					"amount": 2
+				},
+				{
+					"identifier": "c20",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c48",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 61,
+			"description": "Strange Matter",
+			"produced_by": "b39",
+			"ingredients": [
+				{
+					"identifier": "c74",
+					"amount": 2
+				},
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c9",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "c49",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 62,
+			"description": "Titanium Crystal",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c36",
+					"amount": 1
+				},
+				{
+					"identifier": "c19",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c50",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 63,
+			"description": "Carbon Nanotube from Graphene",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c37",
+					"amount": 3
+				},
+				{
+					"identifier": "c19",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c51",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 64,
+			"description": "Carbon Nanotube from Spiniform Stalagmite Crystal",
+			"produced_by": "plants",
+			"ingredients": [
+				{
+					"identifier": "c55",
+					"amount": 6
+				}
+			],
+			"products": [
+				{
+					"identifier": "c51",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 65,
+			"description": "Particle Broadband",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c51",
+					"amount": 2
+				},
+				{
+					"identifier": "c32",
+					"amount": 2
+				},
+				{
+					"identifier": "c35",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c52",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 66,
+			"description": "Titanium Ammo Box",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c39",
+					"amount": 1
+				},
+				{
+					"identifier": "c19",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c53",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 67,
+			"description": "Gravity Missile Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c40",
+					"amount": 3
+				},
+				{
+					"identifier": "c62",
+					"amount": 6
+				},
+				{
+					"identifier": "c49",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c54",
+					"amount": 3
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 68,
+			"description": "Spiniform Stalagmite Crystal",
+			"produced_by": "miners",
+			"ingredients": [],
+			"products": [
+				{
+					"identifier": "c55",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
 		}
 	]
 }

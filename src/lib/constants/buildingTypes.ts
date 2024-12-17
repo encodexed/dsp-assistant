@@ -1,1 +1,12 @@
-export const assemblers = ['b1', 'b4', 'b5'];
+export const smelters = ['b40', 'b41', 'b42'];
+export const assemblers = ['b43', 'b44', 'b45', 'b46'];
+export const miners = ['b31', 'b32'];
+export const plants = ['b37', 'b38'];
+export const labs = ['b47', 'b48'];
+export const pumps = ['b33'];
+export const extractors = ['b34'];
+export const refineries = ['b35'];
+export const colliders = ['b39'];
+export const collectors = ['b26'];
+export const fractionators = ['b36'];
+export const receivers = ['b11'];

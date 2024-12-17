@@ -3,337 +3,337 @@
 		{
 			"id": 0,
 			"name": "Iron Ore",
-			"from_recipes": [],
+			"from_recipes": [1],
 			"src": "/icons/components/c0.png"
 		},
 		{
 			"id": 1,
 			"name": "Copper Ore",
-			"from_recipes": [],
+			"from_recipes": [2],
 			"src": "/icons/components/c1.png"
 		},
 		{
 			"id": 2,
 			"name": "Stone",
-			"from_recipes": [],
+			"from_recipes": [3],
 			"src": "/icons/components/c2.png"
 		},
 		{
 			"id": 3,
 			"name": "Coal",
-			"from_recipes": [],
+			"from_recipes": [4],
 			"src": "/icons/components/c3.png"
 		},
 		{
 			"id": 4,
 			"name": "Silicon Ore",
-			"from_recipes": [],
+			"from_recipes": [5, 6],
 			"src": "/icons/components/c4.png"
 		},
 		{
 			"id": 5,
 			"name": "Titanium Ore",
-			"from_recipes": [],
+			"from_recipes": [7],
 			"src": "/icons/components/c5.png"
 		},
 		{
 			"id": 6,
 			"name": "Water",
-			"from_recipes": [],
+			"from_recipes": [8],
 			"src": "/icons/components/c6.png"
 		},
 		{
 			"id": 7,
 			"name": "Crude Oil",
-			"from_recipes": [],
+			"from_recipes": [9],
 			"src": "/icons/components/c7.png"
 		},
 		{
 			"id": 8,
 			"name": "Hydrogen",
-			"from_recipes": [],
+			"from_recipes": [10, 11, 12, 13, 14],
 			"src": "/icons/components/c8.png"
 		},
 		{
 			"id": 9,
 			"name": "Deuterium",
-			"from_recipes": [],
+			"from_recipes": [15, 16, 17],
 			"src": "/icons/components/c9.png"
 		},
 		{
 			"id": 10,
 			"name": "Antimatter",
-			"from_recipes": [],
+			"from_recipes": [13],
 			"src": "/icons/components/c10.png"
 		},
 		{
 			"id": 11,
 			"name": "Core Element",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c11.png"
 		},
 		{
 			"id": 12,
 			"name": "Critical Photon",
-			"from_recipes": [],
+			"from_recipes": [19],
 			"src": "/icons/components/c12.png"
 		},
 		{
 			"id": 13,
 			"name": "Kimberlite Ore",
-			"from_recipes": [],
+			"from_recipes": [18],
 			"src": "/icons/components/c13.png"
 		},
 		{
 			"id": 14,
 			"name": "Iron Ingot",
-			"from_recipes": [],
+			"from_recipes": [20],
 			"src": "/icons/components/c14.png"
 		},
 		{
 			"id": 15,
 			"name": "Copper Ingot",
-			"from_recipes": [],
+			"from_recipes": [21],
 			"src": "/icons/components/c15.png"
 		},
 		{
 			"id": 16,
 			"name": "Stone Brick",
-			"from_recipes": [],
+			"from_recipes": [22],
 			"src": "/icons/components/c16.png"
 		},
 		{
 			"id": 17,
 			"name": "Energetic Graphite",
-			"from_recipes": [],
+			"from_recipes": [12, 23],
 			"src": "/icons/components/c17.png"
 		},
 		{
 			"id": 18,
 			"name": "High-Purity Silicon",
-			"from_recipes": [],
+			"from_recipes": [24],
 			"src": "/icons/components/c18.png"
 		},
 		{
 			"id": 19,
 			"name": "Titanium Ingot",
-			"from_recipes": [],
+			"from_recipes": [25],
 			"src": "/icons/components/c19.png"
 		},
 		{
 			"id": 20,
 			"name": "Sulfuric Acid",
-			"from_recipes": [],
+			"from_recipes": [26, 27],
 			"src": "/icons/components/c20.png"
 		},
 		{
 			"id": 21,
 			"name": "Refined Oil",
-			"from_recipes": [],
+			"from_recipes": [10, 28],
 			"src": "/icons/components/c21.png"
 		},
 		{
 			"id": 22,
 			"name": "Hydrogen Fuel Rod",
-			"from_recipes": [],
+			"from_recipes": [29],
 			"src": "/icons/components/c22.png"
 		},
 		{
 			"id": 23,
 			"name": "Deuterium Fuel Rod",
-			"from_recipes": [],
+			"from_recipes": [30],
 			"src": "/icons/components/c23.png"
 		},
 		{
 			"id": 24,
 			"name": "Antimatter Fuel Rod",
-			"from_recipes": [],
+			"from_recipes": [31],
 			"src": "/icons/components/c24.png"
 		},
 		{
 			"id": 25,
 			"name": "Strange Annihilation Fuel Rod",
-			"from_recipes": [],
+			"from_recipes": [32],
 			"src": "/icons/components/c25.png"
 		},
 		{
 			"id": 26,
 			"name": "Missile Set",
-			"from_recipes": [],
+			"from_recipes": [33],
 			"src": "/icons/components/c26.png"
 		},
 		{
 			"id": 27,
 			"name": "Fractal Silicon",
-			"from_recipes": [],
+			"from_recipes": [34],
 			"src": "/icons/components/c27.png"
 		},
 		{
 			"id": 28,
 			"name": "Magnet",
-			"from_recipes": [],
+			"from_recipes": [35],
 			"src": "/icons/components/c28.png"
 		},
 		{
 			"id": 29,
 			"name": "Magnetic Coil",
-			"from_recipes": [],
+			"from_recipes": [36],
 			"src": "/icons/components/c29.png"
 		},
 		{
 			"id": 30,
 			"name": "Glass",
-			"from_recipes": [],
+			"from_recipes": [37],
 			"src": "/icons/components/c30.png"
 		},
 		{
 			"id": 31,
 			"name": "Diamond",
-			"from_recipes": [],
+			"from_recipes": [38, 39],
 			"src": "/icons/components/c31.png"
 		},
 		{
 			"id": 32,
 			"name": "Crystal Silicon",
-			"from_recipes": [],
+			"from_recipes": [40, 41],
 			"src": "/icons/components/c32.png"
 		},
 		{
 			"id": 33,
 			"name": "Titanium Alloy",
-			"from_recipes": [],
+			"from_recipes": [42],
 			"src": "/icons/components/c33.png"
 		},
 		{
 			"id": 34,
 			"name": "Combustible Unit",
-			"from_recipes": [],
+			"from_recipes": [43],
 			"src": "/icons/components/c34.png"
 		},
 		{
 			"id": 35,
 			"name": "Plastic",
-			"from_recipes": [],
+			"from_recipes": [44],
 			"src": "/icons/components/c35.png"
 		},
 		{
 			"id": 36,
 			"name": "Organic Crystal",
-			"from_recipes": [],
+			"from_recipes": [45, 46, 47],
 			"src": "/icons/components/c36.png"
 		},
 		{
 			"id": 37,
 			"name": "Graphene",
-			"from_recipes": [],
+			"from_recipes": [48, 49],
 			"src": "/icons/components/c37.png"
 		},
 		{
 			"id": 38,
 			"name": "Annihilation Constraint Sphere",
-			"from_recipes": [],
+			"from_recipes": [50],
 			"src": "/icons/components/c38.png"
 		},
 		{
 			"id": 39,
 			"name": "Magnum Ammo Box",
-			"from_recipes": [],
+			"from_recipes": [51],
 			"src": "/icons/components/c39.png"
 		},
 		{
 			"id": 40,
 			"name": "Supersonic Missile Set",
-			"from_recipes": [],
+			"from_recipes": [52],
 			"src": "/icons/components/c40.png"
 		},
 		{
 			"id": 41,
 			"name": "Grating Crystal",
-			"from_recipes": [],
+			"from_recipes": [53],
 			"src": "/icons/components/c41.png"
 		},
 		{
 			"id": 42,
 			"name": "Steel",
-			"from_recipes": [],
+			"from_recipes": [54],
 			"src": "/icons/components/c42.png"
 		},
 		{
 			"id": 43,
 			"name": "Circuit Board",
-			"from_recipes": [],
+			"from_recipes": [55],
 			"src": "/icons/components/c43.png"
 		},
 		{
 			"id": 44,
 			"name": "Prism",
-			"from_recipes": [],
+			"from_recipes": [56],
 			"src": "/icons/components/c44.png"
 		},
 		{
 			"id": 45,
 			"name": "Electric Motor",
-			"from_recipes": [],
+			"from_recipes": [57],
 			"src": "/icons/components/c45.png"
 		},
 		{
 			"id": 46,
 			"name": "Microcrystalline Component",
-			"from_recipes": [],
+			"from_recipes": [58],
 			"src": "/icons/components/c46.png"
 		},
 		{
 			"id": 47,
 			"name": "Proliferator Mk.1",
-			"from_recipes": [],
+			"from_recipes": [59],
 			"src": "/icons/components/c47.png"
 		},
 		{
 			"id": 48,
 			"name": "Explosive Unit",
-			"from_recipes": [],
+			"from_recipes": [60],
 			"src": "/icons/components/c48.png"
 		},
 		{
 			"id": 49,
 			"name": "Strange Matter",
-			"from_recipes": [],
+			"from_recipes": [61],
 			"src": "/icons/components/c49.png"
 		},
 		{
 			"id": 50,
 			"name": "Titanium Crystal",
-			"from_recipes": [],
+			"from_recipes": [62],
 			"src": "/icons/components/c50.png"
 		},
 		{
 			"id": 51,
 			"name": "Carbon Nanotube",
-			"from_recipes": [],
+			"from_recipes": [63, 64],
 			"src": "/icons/components/c51.png"
 		},
 		{
 			"id": 52,
 			"name": "Particle Broadband",
-			"from_recipes": [],
+			"from_recipes": [65],
 			"src": "/icons/components/c52.png"
 		},
 		{
 			"id": 53,
 			"name": "Titanium Ammo Box",
-			"from_recipes": [],
+			"from_recipes": [66],
 			"src": "/icons/components/c53.png"
 		},
 		{
 			"id": 54,
 			"name": "Gravity Missile Set",
-			"from_recipes": [],
+			"from_recipes": [67],
 			"src": "/icons/components/c54.png"
 		},
 		{
 			"id": 55,
 			"name": "Spiniform Stalagmite Crystal",
-			"from_recipes": [],
+			"from_recipes": [68],
 			"src": "/icons/components/c55.png"
 		},
 		{

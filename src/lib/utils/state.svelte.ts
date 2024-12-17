@@ -7,5 +7,9 @@ export const inputStore = $state<InputStore>({
 });
 
 export const buildingSelections = $state<BuildingSelection>({
-	assemblers: 'b1'
+	smelters: 'b40',
+	assemblers: 'b43',
+	miners: 'b31',
+	plants: 'b37',
+	labs: 'b47'
 });

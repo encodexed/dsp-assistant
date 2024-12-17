@@ -6,21 +6,11 @@ export const getQuickName = (identifier: string) => {
 };
 
 export const getIconSrc = (identifier: string) => {
+	if (identifier === 'b31' || identifier === 'b32') return '/icons/components/c112.png';
 	return getData(identifier).src;
 };
 
 export const round2DP = (num: number) => Math.round((num + Number.EPSILON) * 100) / 100;
-
-export const getSelectedBuilding = (
-	buildings: InputBuilding[],
-	selections: BuildingSelection
-): InputBuilding | null => {
-	const selected = Object.values(selections);
-	const s = buildings.find((b) => selected.includes(b.identifier));
-	if (s) return s;
-	if (buildings.length) return buildings[0];
-	return null;
-};
 
 export const formatPower = (power: number): string => {
 	const digits = Math.ceil(power).toString().length;
