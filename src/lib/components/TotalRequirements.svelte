@@ -45,9 +45,9 @@
 {#if inputStore.ui && totals}
 	<div class="flex gap-2 border-2 border-white p-2">
 		<h3 class="bold">Totals:</h3>
-		<img class="h-5 w-5" src="/icons/buildings/b5.png" alt="" />
+		<img class="max-h-5 max-w-5" src="/icons/buildings/b5.png" alt="" />
 		<p>{formatPower(totals.power)}</p>
-		<img class="h-5 w-5" src={getIconSrc(buildingSelections.assemblers)} alt="" />
+		<img class="max-h-5 max-w-5" src={getIconSrc(buildingSelections.assemblers)} alt="" />
 		<p>x {totals.assemblers}</p>
 	</div>
 {/if}

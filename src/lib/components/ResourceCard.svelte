@@ -51,7 +51,7 @@
 			<img class="h-6 w-8" src="/icons/left-arrow.png" alt="" />
 			<div id="requiredBuildings" class="flex h-full gap-1 p-1">
 				<img
-					class="h-6 w-6"
+					class="max-h-10 max-w-10"
 					src={getIconSrc(input.requiredBuildings?.identifier || 'c111')}
 					alt=""
 				/>
@@ -65,13 +65,18 @@
 					{/if}
 				</p>
 			</div>
-			<div id="power" class="flex h-full gap-1 p-1">
-				<img class="max-h-6 max-w-6" src="/icons/buildings/b5.png" alt="" />
-			</div>
-			<div class="-m-1 flex h-full items-end">
-				<p id="amount" class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]">
-					{calculatePowerConsumption()}
-				</p>
+			<div class="flex items-center gap-1">
+				<div id="power" class="ml-2 flex h-full gap-1 p-1">
+					<img class="max-h-8 max-w-8" src="/icons/buildings/b5.png" alt="" />
+				</div>
+				<div class="-m-1 flex h-full items-end">
+					<p
+						id="amount"
+						class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]"
+					>
+						{calculatePowerConsumption()}
+					</p>
+				</div>
 			</div>
 		</div>
 	</button>
