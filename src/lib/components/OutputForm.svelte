@@ -42,8 +42,7 @@
 				onchange={handleCalculate}
 				class="w-20 rounded border border-gray-300 px-2 py-1"
 				type="number"
-				min="0"
-				step="4"
+				min="1"
 			/>
 		</div>
 		<select

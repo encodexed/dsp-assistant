@@ -18,9 +18,18 @@ export type Input = {
 	ingredients?: Input[];
 };
 
+export type Stack = {
+	identifier: string;
+	requiredBuildings: InputBuilding | null;
+	amount: number;
+	tier: number;
+	isShown: boolean;
+	isExpanded: boolean;
+};
+
 export type InputStore = {
 	data: Input | undefined;
-	ui: Input[][] | null;
+	ui: Stack[] | null;
 	isPrecise: boolean;
 };
 

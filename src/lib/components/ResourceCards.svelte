@@ -4,17 +4,9 @@
 </script>
 
 {#if inputStore.ui}
-	<div class="flex h-60 w-full flex-col items-center gap-2 p-4">
-		{#each inputStore.ui as tier}
-			<div class="flex w-full justify-around">
-				{#each tier as t}
-					<ResourceCard
-						identifier={t.identifier}
-						amount={t.amount}
-						buildings={t.requiredBuildings}
-					/>
-				{/each}
-			</div>
+	<div class="flex w-full flex-col gap-2 p-4">
+		{#each inputStore.ui as input, index}
+			<ResourceCard {input} {index} />
 		{/each}
 	</div>
 {/if}

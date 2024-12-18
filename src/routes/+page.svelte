@@ -3,11 +3,11 @@
 	import OutputTable from '$lib/components/OutputTable.svelte';
 	import type { Product } from '$lib/types';
 	import calculateSteps from '$lib/utils/calculateSteps';
-	import sortInputs from '$lib/utils/sortInputs';
+	import stackInputs from '$lib/utils/stackInputs';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 
 	let output = $state<Product>({
-		identifier: 'c59',
+		identifier: 'c33',
 		amount: 60
 	});
 
@@ -17,9 +17,10 @@
 	});
 
 	const handleCalculate = () => {
+		console.log('Calculating...');
 		const input = calculateSteps(output);
 		inputStore.data = input;
-		inputStore.ui = sortInputs(input);
+		inputStore.ui = stackInputs(input);
 	};
 </script>
 
