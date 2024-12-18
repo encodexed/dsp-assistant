@@ -1437,11 +1437,11 @@
 			"produced_by": "assemblers",
 			"ingredients": [
 				{
-					"identifier": "c26",
+					"identifier": "c45",
 					"amount": 2
 				},
 				{
-					"identifier": "c45",
+					"identifier": "c29",
 					"amount": 2
 				}
 			],
