@@ -4,11 +4,16 @@
 	import type { Product } from '$lib/types';
 	import calculateSteps from '$lib/utils/calculateSteps';
 	import sortInputs from '$lib/utils/sortInputs';
-	import { inputStore } from '$lib/utils/state.svelte';
+	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 
 	let output = $state<Product>({
 		identifier: 'c59',
 		amount: 60
+	});
+
+	// Force a recalculation when building selections change
+	$effect(() => {
+		if (buildingSelections) handleCalculate();
 	});
 
 	const handleCalculate = () => {
