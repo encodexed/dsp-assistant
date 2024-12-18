@@ -18,7 +18,7 @@
 
 	const calculatePowerConsumption = () => {
 		const powerConsumption = input.requiredBuildings
-			? buildingCount * input.requiredBuildings.powerUsageKW
+			? round2DP(buildingCount * input.requiredBuildings.powerUsageKW)
 			: 0;
 		return formatPower(powerConsumption);
 	};
@@ -27,14 +27,18 @@
 {#if input.isShown}
 	<button
 		type="button"
-		style={`margin-left: ${(input.tier - 1) * 25}px`}
+		style={`margin-left: ${(input.tier - 1) * 30}px`}
 		class="flex w-fit items-center gap-1"
 		onclick={() => alterVisibility(index)}
 	>
-		{#if input.isExpanded}
-			<img class="h-6 w-6" src="/icons/minus.png" alt="" />
+		{#if !input.isLowestTier}
+			{#if input.isExpanded}
+				<img class="h-6 w-6" src="/icons/minus.png" alt="" />
+			{:else}
+				<img class="h-6 w-6" src="/icons/plus.png" alt="" />
+			{/if}
 		{:else}
-			<img class="h-6 w-6" src="/icons/plus.png" alt="" />
+			<div class="h-6 w-6"></div>
 		{/if}
 
 		<div
@@ -45,7 +49,7 @@
 			</div>
 			<div class="-ml-1 flex h-full items-end">
 				<p id="amount" class="select-none text-cyan-300 drop-shadow-[0_0_1px_rgba(34,211,288,1)]">
-					{input.amount}
+					{round2DP(input.amount)}
 				</p>
 			</div>
 			<img class="h-6 w-8" src="/icons/left-arrow.png" alt="" />
@@ -61,13 +65,13 @@
 					{#if input.requiredBuildings && input.requiredBuildings.identifier === 'b11'}
 						x
 					{:else}
-						{buildingCount}
+						{round2DP(buildingCount)}
 					{/if}
 				</p>
 			</div>
 			<div class="flex items-center gap-1">
 				<div id="power" class="ml-2 flex h-full gap-1 p-1">
-					<img class="max-h-8 max-w-8" src="/icons/buildings/b5.png" alt="" />
+					<img class="h-6 w-6" src="/icons/buildings/b5.png" alt="" />
 				</div>
 				<div class="-m-1 flex h-full items-end">
 					<p

@@ -25,6 +25,7 @@ export type Stack = {
 	tier: number;
 	isShown: boolean;
 	isExpanded: boolean;
+	isLowestTier: boolean;
 };
 
 export type InputStore = {
