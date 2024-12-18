@@ -14,8 +14,8 @@ const addToStack = (ing: Input, stack: Stack[]) => {
 		requiredBuildings,
 		amount,
 		tier,
-		isShown: true,
-		isExpanded: true
+		isShown: tier <= 2,
+		isExpanded: tier == 1
 	});
 
 	if (ingredients) {

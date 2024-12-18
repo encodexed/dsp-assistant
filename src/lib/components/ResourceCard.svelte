@@ -3,7 +3,11 @@
 	import { formatPower, getIconSrc, round2DP } from '$lib/utils/helpers';
 	import { inputStore } from '$lib/utils/state.svelte';
 
-	let { input, index }: { input: Stack; index: number } = $props();
+	let {
+		input,
+		index,
+		alterVisibility
+	}: { input: Stack; index: number; alterVisibility: (index: number) => void } = $props();
 
 	let buildingCount: number = $derived.by(() => {
 		if (!input.requiredBuildings) return 0;
@@ -18,23 +22,23 @@
 			: 0;
 		return formatPower(powerConsumption);
 	};
-
-	const toggleVisibility = () => {
-		console.log({ index });
-	};
 </script>
 
 {#if input.isShown}
 	<button
 		type="button"
 		style={`margin-left: ${(input.tier - 1) * 25}px`}
-		class="flex items-center gap-1"
-		onclick={() => toggleVisibility()}
+		class="flex w-fit items-center gap-1"
+		onclick={() => alterVisibility(index)}
 	>
-		<img class="h-6 w-6" src="/icons/down-chevron.png" alt="" />
+		{#if input.isExpanded}
+			<img class="h-6 w-6" src="/icons/minus.png" alt="" />
+		{:else}
+			<img class="h-6 w-6" src="/icons/plus.png" alt="" />
+		{/if}
 
 		<div
-			class="flex h-10 min-w-40 items-center overflow-hidden rounded-2xl border-2 border-emerald-600 bg-gray-800 text-xs"
+			class="flex h-10 min-w-40 items-center overflow-hidden rounded-2xl border-2 border-emerald-600 bg-gray-800 pr-3 text-xs"
 		>
 			<div id="productSource" class="flex h-full w-10 items-center justify-center p-1 pr-0">
 				<img src={getIconSrc(input.identifier)} alt="" />
@@ -62,7 +66,7 @@
 				</p>
 			</div>
 			<div id="power" class="flex h-full gap-1 p-1">
-				<img class="h-5 w-5" src="/icons/power.svg" alt="" />
+				<img class="max-h-6 max-w-6" src="/icons/buildings/b5.png" alt="" />
 			</div>
 			<div class="-m-1 flex h-full items-end">
 				<p id="amount" class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]">
