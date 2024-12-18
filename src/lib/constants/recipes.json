@@ -2169,6 +2169,442 @@
 				}
 			],
 			"base_time_secs": 6
+		},
+		{
+			"id": 104,
+			"description": "Space Warper from Graviton Lenses",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c88",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c87",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 105,
+			"description": "Space Warper from Gravity Matrix",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c102",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c87",
+					"amount": 8
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 106,
+			"description": "Graviton Lens",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c31",
+					"amount": 4
+				},
+				{
+					"identifier": "c49",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c88",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 107,
+			"description": "Foundation",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c16",
+					"amount": 3
+				},
+				{
+					"identifier": "c42",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c89",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 108,
+			"description": "Logistics",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c37",
+					"amount": 1
+				},
+				{
+					"identifier": "c58",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c91",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 109,
+			"description": "Frame Material",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c51",
+					"amount": 4
+				},
+				{
+					"identifier": "c33",
+					"amount": 1
+				},
+				{
+					"identifier": "c18",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c92",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 110,
+			"description": "Dyson Sphere Component",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c92",
+					"amount": 3
+				},
+				{
+					"identifier": "c91",
+					"amount": 3
+				},
+				{
+					"identifier": "c60",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c93",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 111,
+			"description": "Small Carrier Rocket",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c93",
+					"amount": 2
+				},
+				{
+					"identifier": "c23",
+					"amount": 4
+				},
+				{
+					"identifier": "c66",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c94",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 112,
+			"description": "Antimatter Capsule",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c81",
+					"amount": 1
+				},
+				{
+					"identifier": "c74",
+					"amount": 1
+				},
+				{
+					"identifier": "c8",
+					"amount": 10
+				},
+				{
+					"identifier": "c10",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "c95",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 113,
+			"description": "Crystal Shell Set",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c82",
+					"amount": 1
+				},
+				{
+					"identifier": "c33",
+					"amount": 3
+				},
+				{
+					"identifier": "c62",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c96",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 114,
+			"description": "Electromagnetic Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c29",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c98",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 115,
+			"description": "Energy Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c17",
+					"amount": 2
+				},
+				{
+					"identifier": "c8",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c99",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 116,
+			"description": "Structure Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c31",
+					"amount": 1
+				},
+				{
+					"identifier": "c50",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c100",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 117,
+			"description": "Information Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c60",
+					"amount": 2
+				},
+				{
+					"identifier": "c52",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c101",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 118,
+			"description": "Gravity Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c88",
+					"amount": 1
+				},
+				{
+					"identifier": "c66",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c102",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 24
+		},
+		{
+			"id": 119,
+			"description": "Universe Matrix",
+			"produced_by": "labs",
+			"ingredients": [
+				{
+					"identifier": "c98",
+					"amount": 1
+				},
+				{
+					"identifier": "c99",
+					"amount": 1
+				},
+				{
+					"identifier": "c100",
+					"amount": 1
+				},
+				{
+					"identifier": "c101",
+					"amount": 1
+				},
+				{
+					"identifier": "c102",
+					"amount": 1
+				},
+				{
+					"identifier": "c10",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c103",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 15
+		},
+		{
+			"id": 120,
+			"description": "Jamming Capsule",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c59",
+					"amount": 1
+				},
+				{
+					"identifier": "c57",
+					"amount": 1
+				},
+				{
+					"identifier": "c8",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "c109",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 121,
+			"description": "Suppressing Capsule",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c109",
+					"amount": 2
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				},
+				{
+					"identifier": "c64",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "c110",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 8
 		}
 	]
 }

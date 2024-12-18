@@ -531,49 +531,55 @@
 		{
 			"id": 88,
 			"name": "Graviton Lens",
-			"from_recipes": [],
+			"from_recipes": [106],
 			"src": "/icons/components/c88.png"
 		},
 		{
 			"id": 89,
 			"name": "Foundation",
-			"from_recipes": [],
+			"from_recipes": [107],
 			"src": "/icons/components/c89.png"
+		},
+		{
+			"id": 90,
+			"name": "(empty)",
+			"from_recipes": [],
+			"src": ""
 		},
 		{
 			"id": 91,
 			"name": "Solar Sail",
-			"from_recipes": [],
+			"from_recipes": [108],
 			"src": "/icons/components/c91.png"
 		},
 		{
 			"id": 92,
 			"name": "Frame Material",
-			"from_recipes": [],
+			"from_recipes": [109],
 			"src": "/icons/components/c92.png"
 		},
 		{
 			"id": 93,
 			"name": "Dyson Sphere Component",
-			"from_recipes": [],
+			"from_recipes": [110],
 			"src": "/icons/components/c93.png"
 		},
 		{
 			"id": 94,
 			"name": "Small Carrier Rocket",
-			"from_recipes": [],
+			"from_recipes": [111],
 			"src": "/icons/components/c94.png"
 		},
 		{
 			"id": 95,
 			"name": "Antimatter Capsule",
-			"from_recipes": [],
+			"from_recipes": [112],
 			"src": "/icons/components/c95.png"
 		},
 		{
 			"id": 96,
 			"name": "Crystal Shell Set",
-			"from_recipes": [],
+			"from_recipes": [113],
 			"src": "/icons/components/c96.png"
 		},
 		{
@@ -585,79 +591,79 @@
 		{
 			"id": 98,
 			"name": "Electromagnetic Matrix",
-			"from_recipes": [],
+			"from_recipes": [114],
 			"src": "/icons/components/c98.png"
 		},
 		{
 			"id": 99,
 			"name": "Energy Matrix",
-			"from_recipes": [],
+			"from_recipes": [115],
 			"src": "/icons/components/c99.png"
 		},
 		{
 			"id": 100,
 			"name": "Structure Matrix",
-			"from_recipes": [],
+			"from_recipes": [116],
 			"src": "/icons/components/c100.png"
 		},
 		{
 			"id": 101,
 			"name": "Information Matrix",
-			"from_recipes": [],
+			"from_recipes": [117],
 			"src": "/icons/components/c101.png"
 		},
 		{
 			"id": 102,
 			"name": "Gravity Matrix",
-			"from_recipes": [],
+			"from_recipes": [118],
 			"src": "/icons/components/c102.png"
 		},
 		{
 			"id": 103,
 			"name": "Universe Matrix",
-			"from_recipes": [],
+			"from_recipes": [119],
 			"src": "/icons/components/c103.png"
 		},
 		{
 			"id": 104,
 			"name": "Dark Fog Matrix",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c104.png"
 		},
 		{
 			"id": 105,
 			"name": "Energy Shard",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c105.png"
 		},
 		{
 			"id": 106,
 			"name": "Silicon-based Neuron",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c21.png"
 		},
 		{
 			"id": 107,
 			"name": "Negentropy Singularity",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c107.png"
 		},
 		{
 			"id": 108,
 			"name": "Matter Recombinator",
-			"from_recipes": [],
+			"from_recipes": [0],
 			"src": "/icons/components/c108.png"
 		},
 		{
 			"id": 109,
 			"name": "Jamming Capsule",
-			"from_recipes": [],
+			"from_recipes": [120],
 			"src": "/icons/components/c109.png"
 		},
 		{
 			"id": 110,
 			"name": "Suppressing Capsule",
-			"from_recipes": [],
+			"from_recipes": [121],
 			"src": "/icons/components/c110.png"
 		},
 		{
