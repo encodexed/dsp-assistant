@@ -6,7 +6,6 @@ export const getQuickName = (identifier: string) => {
 };
 
 export const getIconSrc = (identifier: string) => {
-	if (identifier === 'b31' || identifier === 'b32') return '/icons/components/c112.png';
 	return getData(identifier).src;
 };
 

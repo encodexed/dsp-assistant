@@ -487,6 +487,14 @@
 			"from_recipes": [],
 			"power_usage_kW": null,
 			"src": "/icons/buildings/b60.png"
+		},
+		{
+			"id": 61,
+			"name": "Veins of some sort",
+			"speed_multiplier": 1.23,
+			"from_recipes": [],
+			"power_usage_kW": null,
+			"src": "/icons/components/c112.png"
 		}
 	]
 }

@@ -11,7 +11,7 @@
 		{
 			"id": 1,
 			"description": "Iron Ore",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -24,7 +24,7 @@
 		{
 			"id": 2,
 			"description": "Copper Ore",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -37,7 +37,7 @@
 		{
 			"id": 3,
 			"description": "Stone",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -50,7 +50,7 @@
 		{
 			"id": 4,
 			"description": "Coal",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -63,7 +63,7 @@
 		{
 			"id": 5,
 			"description": "Silicon Ore from Silicon veins",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -94,7 +94,7 @@
 		{
 			"id": 7,
 			"description": "Titanium Ore",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -287,7 +287,7 @@
 		{
 			"id": 18,
 			"description": "Kimberlite Ore",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -624,7 +624,7 @@
 		{
 			"id": 34,
 			"description": "Fractal Silicon",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -885,7 +885,7 @@
 		{
 			"id": 47,
 			"description": "Organic Crystal from veins",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -1012,7 +1012,7 @@
 		{
 			"id": 53,
 			"description": "Grating Crystal",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -1337,7 +1337,7 @@
 		{
 			"id": 68,
 			"description": "Spiniform Stalagmite Crystal",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -1692,7 +1692,7 @@
 		{
 			"id": 84,
 			"description": "Unipolar Magnet",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
@@ -2069,7 +2069,7 @@
 		{
 			"id": 99,
 			"description": "Fire Ice from veins",
-			"produced_by": "miners",
+			"produced_by": "b61",
 			"ingredients": [],
 			"products": [
 				{
