@@ -23,8 +23,7 @@
 	};
 
 	const alterVisibility = (index: number) => {
-		// Ignore last element of UI
-		if (!inputStore.ui || inputStore.ui.length - 1 === index) return;
+		if (!inputStore.ui) return;
 
 		// Reverse the isExpanded property
 		inputStore.ui[index].isExpanded = !inputStore.ui[index].isExpanded;
@@ -35,6 +34,7 @@
 	};
 
 	const alterAllNodes = (show: boolean) => {
+		inputStore.uiExpanded = show;
 		inputStore.ui!.forEach((node, index) => {
 			if (!index) {
 				node.isShown = true;

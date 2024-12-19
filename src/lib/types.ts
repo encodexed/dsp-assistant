@@ -31,6 +31,7 @@ export type Stack = {
 export type InputStore = {
 	data: Input | undefined;
 	ui: Stack[] | null;
+	uiExpanded: boolean | null;
 	isPrecise: boolean;
 };
 

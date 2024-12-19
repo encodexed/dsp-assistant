@@ -7,7 +7,7 @@
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 
 	let output = $state<Product>({
-		identifier: 'c35',
+		identifier: 'c59',
 		amount: 30
 	});
 
@@ -19,7 +19,7 @@
 	const handleCalculate = () => {
 		const input = calculateSteps(output);
 		inputStore.data = input;
-		inputStore.ui = stackInputs(input);
+		inputStore.ui = stackInputs(input, inputStore.uiExpanded);
 	};
 </script>
 
