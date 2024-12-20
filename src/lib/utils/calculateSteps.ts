@@ -1,29 +1,58 @@
-import type { Product, Building, Recipe, Component, Input, InputBuilding } from '$lib/types';
+import type {
+	Product,
+	Building,
+	Recipe,
+	Component,
+	Input,
+	InputBuilding,
+	RecipeAlteration
+} from '$lib/types';
 import components from '$lib/constants/components.json';
 import buildings from '$lib/constants/buildings.json';
 import recipes from '$lib/constants/recipes.json';
 import { error } from '@sveltejs/kit';
 import { buildingSelections } from './state.svelte';
 
-const calculateSteps = (target: Product): Input => {
-	return getIngredients(target, target.amount, 1);
+let step_id = -1;
+const incrementStepId = (): number => ++step_id;
+const resetStepId = (): number => (step_id = -1);
+
+const calculateSteps = (target: Product, alts: RecipeAlteration[]): Input => {
+	const stepsAltered: number[] = alts.map((alt) => alt.stepId);
+	const changes: number[] = alts.map((alt) => alt.useRecipe);
+	const ings = getIngredients(target, target.amount, 1, stepsAltered, changes);
+	resetStepId();
+	return ings;
 };
 
-const getIngredients = (target: Product, cumulativeAmt: number, tier: number): Input => {
+const getIngredients = (
+	target: Product,
+	cumulativeAmt: number,
+	tier: number,
+	alts: number[],
+	changes: number[]
+): Input => {
+	let recipeId = 0;
+	const stepIndex = alts.findIndex((alt) => alt === step_id + 1);
+	if (stepIndex >= 0) {
+		recipeId = changes[stepIndex];
+	}
 	const { identifier } = target;
-	const rid = getData(identifier).from_recipes[0];
+	const rid = getData(identifier).from_recipes[recipeId]; // * Needs to change
 	if (rid !== undefined) {
 		const rd: Recipe = recipes.data[rid];
 		return {
+			step_id: incrementStepId(),
 			identifier,
 			requiredBuildings: getRequiredBuildings(identifier, cumulativeAmt, rd),
 			amount: cumulativeAmt,
-			using_recipe: rid,
+			using_recipe: rid, // * Needs to change
 			tier,
-			ingredients: cascade(rd, cumulativeAmt, tier)
+			ingredients: cascade(rd, cumulativeAmt, tier, alts, changes)
 		};
 	} else {
 		return {
+			step_id: incrementStepId(),
 			identifier,
 			requiredBuildings: null,
 			amount: cumulativeAmt,
@@ -34,9 +63,15 @@ const getIngredients = (target: Product, cumulativeAmt: number, tier: number): I
 	}
 };
 
-const cascade = (rd: Recipe, amt: number, tier: number): Input[] => {
+const cascade = (
+	rd: Recipe,
+	amt: number,
+	tier: number,
+	alts: number[],
+	changes: number[]
+): Input[] => {
 	const map = rd.ingredients.map((ing) => {
-		return getIngredients(ing, amt * ing.amount, tier + 1);
+		return getIngredients(ing, amt * ing.amount, tier + 1, alts, changes);
 	});
 	return map;
 };

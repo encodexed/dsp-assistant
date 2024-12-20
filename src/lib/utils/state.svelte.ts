@@ -4,6 +4,7 @@ export const inputStore = $state<InputStore>({
 	data: undefined,
 	ui: null,
 	uiExpanded: null,
+	recipeAlterations: [],
 	isPrecise: false
 });
 

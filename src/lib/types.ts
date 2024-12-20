@@ -10,6 +10,7 @@ export type ProductSelection = {
 };
 
 export type Input = {
+	step_id: number;
 	identifier: string;
 	requiredBuildings: InputBuilding | null;
 	amount: number;
@@ -19,6 +20,7 @@ export type Input = {
 };
 
 export type Stack = {
+	step_id: number;
 	identifier: string;
 	requiredBuildings: InputBuilding | null;
 	amount: number;
@@ -32,7 +34,13 @@ export type InputStore = {
 	data: Input | undefined;
 	ui: Stack[] | null;
 	uiExpanded: boolean | null;
+	recipeAlterations: RecipeAlteration[];
 	isPrecise: boolean;
+};
+
+export type RecipeAlteration = {
+	stepId: number;
+	useRecipe: number;
 };
 
 export type BuildingSelection = {

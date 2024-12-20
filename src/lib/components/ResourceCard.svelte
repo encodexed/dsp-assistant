@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Stack } from '$lib/types';
+	import { getData } from '$lib/utils/calculateSteps';
 	import { formatPower, getIconSrc, round2DP } from '$lib/utils/helpers';
 	import { inputStore } from '$lib/utils/state.svelte';
 
@@ -9,6 +10,13 @@
 		alterVisibility
 	}: { input: Stack; index: number; alterVisibility: (index: number) => void } = $props();
 
+	let recipeChoices = $state<number>(1);
+	let usedRecipe = $state<number>(0);
+
+	$effect(() => {
+		recipeChoices = getRecipeChoices();
+	});
+
 	let buildingCount: number = $derived.by(() => {
 		if (!input.requiredBuildings) return 0;
 		return inputStore.isPrecise
@@ -16,26 +24,37 @@
 			: Math.ceil(input.requiredBuildings.amountRequired);
 	});
 
-	const calculatePowerConsumption = () => {
+	const calculatePowerConsumption = (): string => {
 		const powerConsumption = input.requiredBuildings
 			? round2DP(buildingCount * input.requiredBuildings.powerUsageKW)
 			: 0;
 		return formatPower(powerConsumption);
 	};
+
+	const getRecipeChoices = (): number => getData(input.identifier).from_recipes.length;
+
+	const changeUsedRecipe = (stepId: number, useRecipe: number): void => {
+		const newAlterations = inputStore.recipeAlterations.filter((alt) => alt.stepId !== stepId);
+		newAlterations.push({
+			stepId,
+			useRecipe
+		});
+		usedRecipe = useRecipe;
+		inputStore.recipeAlterations = newAlterations;
+	};
 </script>
 
 {#if input.isShown}
-	<button
-		type="button"
-		style={`margin-left: ${(input.tier - 1) * 30}px`}
-		class="flex w-fit items-center gap-1"
-		onclick={() => alterVisibility(index)}
-	>
+	<div style={`margin-left: ${(input.tier - 1) * 30}px`} class="flex w-fit items-center gap-1">
 		{#if !input.isLowestTier}
 			{#if input.isExpanded}
-				<img class="h-6 w-6" src="/icons/minus.png" alt="" />
+				<button type="button" onclick={() => alterVisibility(index)}>
+					<img class="h-6 w-6" src="/icons/minus.png" alt="" /></button
+				>
 			{:else}
-				<img class="h-6 w-6" src="/icons/plus.png" alt="" />
+				<button type="button" onclick={() => alterVisibility(index)}>
+					<img class="h-6 w-6" src="/icons/plus.png" alt="" /></button
+				>
 			{/if}
 		{:else}
 			<div class="h-6 w-6"></div>
@@ -73,15 +92,32 @@
 				<div id="power" class="ml-2 flex h-full gap-1 p-1">
 					<img class="h-6 w-6" src="/icons/buildings/b5.png" alt="" />
 				</div>
-				<div class="-m-1 flex h-full items-end">
-					<p
-						id="amount"
-						class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]"
-					>
+				<div class="-m-1 mr-2 flex h-full items-end">
+					<p class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]">
 						{calculatePowerConsumption()}
 					</p>
 				</div>
 			</div>
+			{#if recipeChoices > 1}
+				<div class="flex items-center gap-1">
+					<p class="text-xs text-white">Switch recipe:</p>
+					{#each { length: recipeChoices } as _, index}
+						{#if usedRecipe !== index}
+							<button
+								type="button"
+								class="h-5 w-5 rounded-full bg-white text-black"
+								onclick={() => changeUsedRecipe(input.step_id, index)}
+							>
+								{index + 1}
+							</button>
+						{:else}
+							<button type="button" class="h-5 w-5 rounded-full bg-cyan-400 text-black">
+								{index + 1}
+							</button>
+						{/if}
+					{/each}
+				</div>
+			{/if}
 		</div>
-	</button>
+	</div>
 {/if}

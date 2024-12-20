@@ -8,9 +8,10 @@ const stackInputs = (input: Input, uiExpanded: boolean | null) => {
 };
 
 const addToStack = (ing: Input, stack: Stack[], uiExpanded: boolean | null) => {
-	const { identifier, requiredBuildings, amount, tier, ingredients } = ing;
+	const { step_id, identifier, requiredBuildings, amount, tier, ingredients } = ing;
 	const visible: boolean = !!uiExpanded;
 	stack.push({
+		step_id,
 		identifier,
 		requiredBuildings,
 		amount,
