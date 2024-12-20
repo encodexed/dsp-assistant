@@ -3,6 +3,7 @@
 	import { getData } from '$lib/utils/calculateSteps';
 	import { formatPower, getIconSrc, round2DP } from '$lib/utils/helpers';
 	import { inputStore } from '$lib/utils/state.svelte';
+	import { fade } from 'svelte/transition';
 
 	let {
 		input,
@@ -61,6 +62,7 @@
 		{/if}
 
 		<div
+			in:fade
 			class="flex h-10 min-w-40 items-center overflow-hidden rounded-2xl border-2 border-emerald-600 bg-gray-800 pr-3 text-xs"
 		>
 			<div id="productSource" class="flex h-full w-10 items-center justify-center p-1 pr-0">
