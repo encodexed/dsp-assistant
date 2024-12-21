@@ -52,7 +52,7 @@
 </script>
 
 {#if input.isShown && visible}
-	<div in:fade>
+	<div transition:fade>
 		<div style={`margin-left: ${(input.tier - 1) * 30}px`} class="flex w-fit items-center gap-1">
 			{#if !input.isLowestTier}
 				{#if input.isExpanded}
@@ -69,7 +69,7 @@
 			{/if}
 
 			<div
-				in:fade
+				transition:fade
 				class="flex h-10 min-w-40 items-center overflow-hidden rounded-2xl border-2 border-emerald-600 bg-gray-800 pr-3 text-xs"
 			>
 				<div id="productSource" class="flex h-full w-10 items-center justify-center p-1 pr-0">

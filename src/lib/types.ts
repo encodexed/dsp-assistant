@@ -24,6 +24,7 @@ export type Stack = {
 	identifier: string;
 	requiredBuildings: InputBuilding | null;
 	amount: number;
+	usedRecipe: number | null;
 	tier: number;
 	isShown: boolean;
 	isExpanded: boolean;
@@ -36,6 +37,8 @@ export type InputStore = {
 	uiExpanded: boolean | null;
 	recipeAlterations: RecipeAlteration[];
 	isPrecise: boolean;
+	totals: Record<string, number>;
+	surplus: Record<string, number>;
 };
 
 export type RecipeAlteration = {
@@ -56,13 +59,6 @@ export type InputBuilding = {
 	product: string;
 	amountRequired: number;
 	powerUsageKW: number;
-};
-
-export type ButtonAction = {
-	icon: string;
-	text: string;
-	type: 'primary' | 'secondary' | 'warning' | 'danger';
-	handler: (e: Event) => void;
 };
 
 // From JSON constants

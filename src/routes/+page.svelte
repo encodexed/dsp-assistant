@@ -5,6 +5,7 @@
 	import calculateSteps from '$lib/utils/calculateSteps';
 	import stackInputs from '$lib/utils/stackInputs';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
+	import tallyProductStats from '$lib/utils/tallyProductStats';
 
 	let output = $state<Product>({
 		identifier: 'c36',
@@ -20,7 +21,13 @@
 		console.log('Recalculating...');
 		const input = calculateSteps(output, inputStore.recipeAlterations);
 		inputStore.data = input;
-		inputStore.ui = stackInputs(input, inputStore.uiExpanded);
+		const stackedInputs = stackInputs(input, inputStore.uiExpanded);
+		inputStore.ui = stackedInputs;
+		const stats: { surplus: Record<string, number>; totals: Record<string, number> } =
+			tallyProductStats(stackedInputs);
+		console.log({ stats });
+		inputStore.totals = stats.totals;
+		inputStore.surplus = stats.surplus;
 	};
 </script>
 

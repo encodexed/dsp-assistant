@@ -5,7 +5,9 @@ export const inputStore = $state<InputStore>({
 	ui: null,
 	uiExpanded: null,
 	recipeAlterations: [],
-	isPrecise: false
+	isPrecise: false,
+	totals: {},
+	surplus: {}
 });
 
 export const buildingSelections = $state<BuildingSelection>({
