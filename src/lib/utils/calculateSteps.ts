@@ -48,7 +48,7 @@ const getIngredients = (
 			amount: cumulativeAmt,
 			using_recipe: rid,
 			tier,
-			ingredients: cascade(rd, cumulativeAmt, tier, alts, changes)
+			ingredients: cascade(identifier, rd, cumulativeAmt, tier, alts, changes)
 		};
 	} else {
 		return {
@@ -64,14 +64,18 @@ const getIngredients = (
 };
 
 const cascade = (
+	targetId: string,
 	rd: Recipe,
 	amt: number,
 	tier: number,
 	alts: number[],
 	changes: number[]
 ): Input[] => {
+	// maybe analyse how many target ingredients are being output and calculate compared to that
+	const itemsPerRecipeUse = rd.products.find((p) => p.identifier === targetId)?.amount || 0;
+	const amount = amt / itemsPerRecipeUse;
 	const map = rd.ingredients.map((ing) => {
-		return getIngredients(ing, amt * ing.amount, tier + 1, alts, changes);
+		return getIngredients(ing, amount * ing.amount, tier + 1, alts, changes);
 	});
 	return map;
 };
