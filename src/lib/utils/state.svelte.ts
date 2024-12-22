@@ -1,4 +1,9 @@
-import type { BuildingSelection, InputStore } from '$lib/types';
+import type { BuildingSelection, InputStore, Product } from '$lib/types';
+
+export const outputStore = $state<Product>({
+	identifier: 'c100',
+	amount: 10
+});
 
 export const inputStore = $state<InputStore>({
 	data: undefined,
