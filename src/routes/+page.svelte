@@ -18,13 +18,17 @@
 	});
 
 	const handleCalculate = () => {
+		console.warn('Calculating...');
+		console.log($state.snapshot(output));
 		const input = calculateSteps(output, inputStore.recipeAlterations);
 		console.log({ input });
 		inputStore.data = input;
 		const stackedInputs = stackInputs(input, inputStore.uiExpanded);
+		console.log({ stackInputs });
 		inputStore.ui = stackedInputs;
 		const stats: { surplus: Record<string, number>; totals: Record<string, number> } =
 			tallyProductStats(stackedInputs);
+		console.log({ stats });
 		inputStore.totals = stats.totals;
 		inputStore.surplus = stats.surplus;
 	};

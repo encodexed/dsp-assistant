@@ -5,6 +5,7 @@
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 	import TotalRequirements from './TotalRequirements.svelte';
 	import TotalResources from './TotalResources.svelte';
+	import Surplus from './Surplus.svelte';
 </script>
 
 {#if inputStore.ui}
@@ -44,5 +45,6 @@
 	</div>
 	<TotalRequirements />
 	<TotalResources />
+	<Surplus />
 	<ResourceCards />
 {/if}
