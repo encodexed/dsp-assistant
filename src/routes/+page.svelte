@@ -24,7 +24,7 @@
 		console.log({ input });
 		inputStore.data = input;
 		const stackedInputs = stackInputs(input, inputStore.uiExpanded);
-		console.log({ stackInputs });
+		console.log({ stackedInputs });
 		inputStore.ui = stackedInputs;
 		const stats: { surplus: Record<string, number>; totals: Record<string, number> } =
 			tallyProductStats(stackedInputs);

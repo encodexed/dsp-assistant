@@ -71,6 +71,7 @@ export type Component = {
 
 export type Recipe = {
 	id: number;
+	src: string;
 	description: string;
 	produced_by: string;
 	ingredients: Product[];

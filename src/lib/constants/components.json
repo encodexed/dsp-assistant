@@ -219,7 +219,7 @@
 		{
 			"id": 36,
 			"name": "Organic Crystal",
-			"from_recipes": [45, 46, 47],
+			"from_recipes": [45, 47],
 			"src": "/icons/components/c36.png"
 		},
 		{

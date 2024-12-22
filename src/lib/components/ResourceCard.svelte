@@ -5,6 +5,7 @@
 	import { inputStore } from '$lib/utils/state.svelte';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
+	import recipes from '$lib/constants/recipes.json';
 
 	let {
 		input,
@@ -14,10 +15,12 @@
 
 	let recipeChoices = $state<number>(1);
 	let usedRecipe = $state<number>(0);
+	let recipeIcons = $state<string[]>([]);
 	let visible = $state<boolean>(false);
 
 	$effect(() => {
 		recipeChoices = getRecipeChoices();
+		recipeIcons = getRecipeIcons();
 	});
 
 	onMount(() => {
@@ -48,6 +51,12 @@
 		});
 		usedRecipe = useRecipe;
 		inputStore.recipeAlterations = newAlterations;
+	};
+
+	const getRecipeIcons = () => {
+		const { identifier } = input;
+		const outputRecipes = getData(identifier).from_recipes;
+		return outputRecipes.map((r: number) => recipes.data[r].src);
 	};
 </script>
 
@@ -114,14 +123,18 @@
 							{#if usedRecipe !== index}
 								<button
 									type="button"
-									class="h-5 w-5 rounded-full bg-white text-black"
+									class="h-6 w-6 rounded-full"
 									onclick={() => changeUsedRecipe(input.step_id, index)}
 								>
-									{index + 1}
+									<img
+										class="h-full w-full rounded-full p-0.5 hover:border-2"
+										src={recipeIcons[index]}
+										alt=""
+									/>
 								</button>
 							{:else}
-								<button type="button" class="h-5 w-5 rounded-full bg-cyan-400 text-black">
-									{index + 1}
+								<button type="button" class="h-6 w-6 rounded-full border-2 bg-slate-500">
+									<img class="h-full w-full rounded-full p-0.5" src={recipeIcons[index]} alt="" />
 								</button>
 							{/if}
 						{/each}
