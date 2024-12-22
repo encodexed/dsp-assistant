@@ -71,7 +71,6 @@ const cascade = (
 	alts: number[],
 	changes: number[]
 ): Input[] => {
-	// maybe analyse how many target ingredients are being output and calculate compared to that
 	const itemsPerRecipeUse = rd.products.find((p) => p.identifier === targetId)?.amount || 0;
 	const amount = amt / itemsPerRecipeUse;
 	const map = rd.ingredients.map((ing) => {

@@ -3,6 +3,7 @@
 	import components from '$lib/constants/components.json';
 	import buildings from '$lib/constants/buildings.json';
 	import { onMount } from 'svelte';
+	import { inputStore } from '$lib/utils/state.svelte';
 
 	const getOutputSelections = () => {
 		const selections: ProductSelection[] = [];
@@ -30,6 +31,11 @@
 	let { output = $bindable(), handleCalculate } = $props();
 	const outputSelections = getOutputSelections();
 
+	const getNewInputs = () => {
+		inputStore.recipeAlterations = [];
+		handleCalculate();
+	};
+
 	onMount(() => handleCalculate());
 </script>
 
@@ -48,7 +54,7 @@
 		<select
 			id="selectionDropdown"
 			bind:value={output.identifier}
-			onchange={handleCalculate}
+			onchange={getNewInputs}
 			class="rounded border border-gray-300 px-2 py-1"
 		>
 			{#each outputSelections as choice}
