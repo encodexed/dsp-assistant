@@ -4,40 +4,7 @@
 	import { assemblers, smelters, miners, plants, labs } from '$lib/constants/buildingTypes';
 	import { inputStore, buildingSelections } from '$lib/utils/state.svelte';
 	import TotalRequirements from './TotalRequirements.svelte';
-
-	// type Selections = {
-	// 	name: string;
-	// 	range: string[];
-	// 	state: string;
-	// };
-
-	// const selections: Selections[] = [
-	// 	{
-	// 		name: 'assemblers',
-	// 		range: assemblers,
-	// 		state: buildingSelections.assemblers
-	// 	},
-	// 	{
-	// 		name: 'smelters',
-	// 		range: smelters,
-	// 		state: buildingSelections.assemblers
-	// 	},
-	// 	{
-	// 		name: 'miners',
-	// 		range: miners,
-	// 		state: buildingSelections.miners
-	// 	},
-	// 	{
-	// 		name: 'plants',
-	// 		range: plants,
-	// 		state: buildingSelections.plants
-	// 	},
-	// 	{
-	// 		name: 'labs',
-	// 		range: labs,
-	// 		state: buildingSelections.labs
-	// 	}
-	// ];
+	import TotalResources from './TotalResources.svelte';
 </script>
 
 {#if inputStore.ui}
@@ -76,5 +43,6 @@
 		</div>
 	</div>
 	<TotalRequirements />
+	<TotalResources />
 	<ResourceCards />
 {/if}
