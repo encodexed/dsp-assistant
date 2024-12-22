@@ -38,7 +38,7 @@ const getIngredients = (
 		recipeId = changes[stepIndex];
 	}
 	const { identifier } = target;
-	const rid = getData(identifier).from_recipes[recipeId]; // * Needs to change
+	const rid = getData(identifier).from_recipes[recipeId];
 	if (rid !== undefined) {
 		const rd: Recipe = recipes.data[rid];
 		return {
@@ -46,7 +46,7 @@ const getIngredients = (
 			identifier,
 			requiredBuildings: getRequiredBuildings(identifier, cumulativeAmt, rd),
 			amount: cumulativeAmt,
-			using_recipe: rid, // * Needs to change
+			using_recipe: rid,
 			tier,
 			ingredients: cascade(rd, cumulativeAmt, tier, alts, changes)
 		};
@@ -80,6 +80,7 @@ export const getData = (identifier: string): Building | Component => {
 	const id = parseInt(identifier.substring(1));
 	if (identifier.includes('c')) return components.data[id];
 	else if (identifier.includes('b')) return buildings.data[id];
+	console.error('Tried to get invalid identifier: ', identifier);
 	throw error(500, 'Invalid type encountered');
 };
 
@@ -89,6 +90,13 @@ const getRequiredBuildings = (
 	recipe: Recipe
 ): InputBuilding => {
 	const { produced_by, products, base_time_secs } = recipe;
+	if (!produced_by)
+		return {
+			identifier: 'b52',
+			product: identifier,
+			amountRequired: 1,
+			powerUsageKW: 0
+		};
 	// The amount of items produced each time this recipe completes
 	const outputAmount = products.find((item) => item.identifier === identifier)?.amount || 1;
 	const productionBuildingId = getProductionBuilding(produced_by);

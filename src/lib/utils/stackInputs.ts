@@ -3,7 +3,6 @@ import type { Input, Stack } from '$lib/types';
 const stackInputs = (input: Input, uiExpanded: boolean | null) => {
 	const stack: Stack[] = [];
 	addToStack(input, stack, uiExpanded);
-	console.log(stack);
 	return stack;
 };
 

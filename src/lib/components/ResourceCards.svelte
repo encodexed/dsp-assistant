@@ -30,7 +30,6 @@
 
 		// Toggle visibility
 		alterSubTiers(index, inputStore.ui[index].isExpanded);
-		console.log($state.snapshot(inputStore));
 	};
 
 	const alterAllNodes = (show: boolean) => {
