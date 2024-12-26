@@ -6,7 +6,7 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import recipes from '$lib/constants/recipes.json';
-	import SubScript from './SubScript.svelte';
+	import SubScript from './UI/SubScript.svelte';
 
 	let {
 		input,
