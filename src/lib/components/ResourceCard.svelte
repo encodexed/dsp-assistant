@@ -6,6 +6,7 @@
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	import recipes from '$lib/constants/recipes.json';
+	import SubScript from './SubScript.svelte';
 
 	let {
 		input,
@@ -85,9 +86,9 @@
 					<img src={getIconSrc(input.identifier)} alt="" />
 				</div>
 				<div class="-ml-1 flex h-full items-end">
-					<p id="amount" class="select-none text-cyan-300 drop-shadow-[0_0_1px_rgba(34,211,288,1)]">
+					<SubScript color="teal">
 						{round2DP(input.amount)}
-					</p>
+					</SubScript>
 				</div>
 				<img class="h-6 w-8" src="/icons/left-arrow.png" alt="" />
 				<div id="requiredBuildings" class="flex h-full gap-1 p-1">
@@ -98,22 +99,22 @@
 					/>
 				</div>
 				<div class="-m-1 flex h-full items-end">
-					<p id="amount" class="select-none text-cyan-300 drop-shadow-[0_0_1px_rgba(34,211,288,1)]">
+					<SubScript color="teal">
 						{#if input.requiredBuildings && input.requiredBuildings.identifier === 'b11'}
 							x
 						{:else}
 							{round2DP(buildingCount)}
 						{/if}
-					</p>
+					</SubScript>
 				</div>
 				<div class="flex items-center gap-1">
 					<div id="power" class="ml-2 flex h-full gap-1 p-1">
 						<img class="h-6 w-6" src="/icons/buildings/b5.png" alt="" />
 					</div>
 					<div class="-m-1 mr-2 flex h-full items-end">
-						<p class="select-none text-amber-400 drop-shadow-[0_0_1px_rgba(251,191,36,1)]">
+						<SubScript color="orange">
 							{calculatePowerConsumption()}
-						</p>
+						</SubScript>
 					</div>
 				</div>
 				{#if recipeChoices > 1}
