@@ -85,11 +85,9 @@
 				<div id="productSource" class="flex h-full w-10 items-center justify-center p-1 pr-0">
 					<img src={getIconSrc(input.identifier)} alt="" />
 				</div>
-				<div class="-ml-1 flex h-full items-end">
-					<SubScript color="teal">
-						{round2DP(input.amount)}
-					</SubScript>
-				</div>
+				<SubScript>
+					{round2DP(input.amount)}
+				</SubScript>
 				<img class="h-6 w-8" src="/icons/left-arrow.png" alt="" />
 				<div id="requiredBuildings" class="flex h-full gap-1 p-1">
 					<img
@@ -98,15 +96,13 @@
 						alt=""
 					/>
 				</div>
-				<div class="-m-1 flex h-full items-end">
-					<SubScript color="teal">
-						{#if input.requiredBuildings && input.requiredBuildings.identifier === 'b11'}
-							x
-						{:else}
-							{round2DP(buildingCount)}
-						{/if}
-					</SubScript>
-				</div>
+				<SubScript>
+					{#if input.requiredBuildings && input.requiredBuildings.identifier === 'b11'}
+						x
+					{:else}
+						{round2DP(buildingCount)}
+					{/if}
+				</SubScript>
 				<div class="flex items-center gap-1">
 					<div id="power" class="ml-2 flex h-full gap-1 p-1">
 						<img class="h-6 w-6" src="/icons/buildings/b5.png" alt="" />

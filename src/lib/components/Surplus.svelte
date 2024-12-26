@@ -20,12 +20,11 @@
 </script>
 
 {#if surplus.length}
-	<div class="flex gap-4 border-2 border-white bg-red-800 p-2">
-		<h3 class="bold">Surplus:</h3>
+	<div class="flex flex-wrap gap-x-4 gap-y-2">
 		{#each surplus as resource}
 			<div class="flex items-center gap-1">
 				<img class="max-h-6 max-w-6" src={getIconSrc(resource[0])} alt="" />
-				<p>x {round2DP(resource[1])}</p>
+				<p class="text-red-500">x {round2DP(resource[1])}</p>
 			</div>
 		{/each}
 	</div>

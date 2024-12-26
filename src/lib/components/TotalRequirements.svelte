@@ -78,9 +78,8 @@
 	};
 </script>
 
-{#if inputStore.ui && totals}
-	<div class="flex gap-4 border-2 border-white p-2">
-		<h3 class="bold">Totals:</h3>
+<div class="flex h-full flex-wrap gap-x-4 gap-y-2">
+	{#if inputStore.ui && totals}
 		<div class="flex items-center gap-1">
 			<img class="max-h-6 max-w-6" src="/icons/buildings/b5.png" alt="" />
 			<p>{formatPower(totals.power)}</p>
@@ -133,5 +132,5 @@
 				<p>x {totals.pumps}</p>
 			</div>
 		{/if}
-	</div>
-{/if}
+	{/if}
+</div>
