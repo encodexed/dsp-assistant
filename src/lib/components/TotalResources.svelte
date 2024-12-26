@@ -11,8 +11,7 @@
 </script>
 
 {#if totals.length}
-	<div class="flex gap-4 border-2 border-white p-2">
-		<h3 class="bold">Totals:</h3>
+	<div class="flex h-full flex-wrap gap-x-4 gap-y-2">
 		{#each totals as resource}
 			<div class="flex items-center gap-1">
 				<img class="max-h-6 max-w-6" src={getIconSrc(resource[0])} alt="" />

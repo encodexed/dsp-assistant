@@ -7,23 +7,21 @@
 	};
 </script>
 
-<div class="w-2/3 border">
+<button type="button" onclick={toggleVisibility} class="no-select w-full border">
 	<div class="flex w-full items-center justify-between px-1">
 		<h6 class="tracking-wide text-gray-300">{heading}</h6>
 		{#if visible}
-			<button type="button" onclick={toggleVisibility}>
-				<img class="h-3 w-3" src="/icons/minus.png" alt="" /></button
-			>
+			<img class="h-3 w-3" src="/icons/minus.png" alt="" />
 		{:else}
-			<button type="button" onclick={toggleVisibility}>
-				<img class="h-3 w-3" src="/icons/plus.png" alt="" /></button
-			>
+			<img class="h-3 w-3" src="/icons/plus.png" alt="" />
 		{/if}
 	</div>
 	<div
-		style={visible ? `height: ${h}px; border-top: 1px solid white` : ''}
-		class="h-0 overflow-scroll px-1 transition-all duration-300"
+		style={visible ? `height: ${h}px;` : ''}
+		class="h-0 overflow-scroll transition-all duration-300"
 	>
-		{@render children()}
+		<div class="p-1">
+			{@render children()}
+		</div>
 	</div>
-</div>
+</button>

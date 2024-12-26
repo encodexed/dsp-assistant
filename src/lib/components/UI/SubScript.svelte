@@ -1,10 +1,12 @@
 <script lang="ts">
-	let { children, color } = $props();
+	let { children, color = 'teal' } = $props();
 </script>
 
-<p class={`select-none ${color}`}>
-	{@render children()}
-</p>
+<div class="-ml-1 flex h-full items-end text-xs">
+	<p class={`select-none ${color}`}>
+		{@render children()}
+	</p>
+</div>
 
 <style>
 	.teal {
