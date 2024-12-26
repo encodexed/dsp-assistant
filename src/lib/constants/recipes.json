@@ -2727,6 +2727,1773 @@
 				}
 			],
 			"base_time_secs": 8
+		},
+		{
+			"id": 122,
+			"src": "/icons/buildings/b0.png",
+			"description": "Tesla Tower",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c29",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b0",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 123,
+			"src": "/icons/buildings/b1.png",
+			"description": "Wireless Power Tower",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b0",
+					"amount": 1
+				},
+				{
+					"identifier": "c57",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "b1",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 124,
+			"src": "/icons/buildings/b2.png",
+			"description": "Satellite Substation",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b1",
+					"amount": 1
+				},
+				{
+					"identifier": "c73",
+					"amount": 10
+				},
+				{
+					"identifier": "c92",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b2",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 125,
+			"src": "/icons/buildings/b3.png",
+			"description": "Wind Turbine",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 6
+				},
+				{
+					"identifier": "c56",
+					"amount": 1
+				},
+				{
+					"identifier": "c29",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "b3",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 126,
+			"src": "/icons/buildings/b4.png",
+			"description": "Thermal Power Plant",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 10
+				},
+				{
+					"identifier": "c16",
+					"amount": 4
+				},
+				{
+					"identifier": "c56",
+					"amount": 4
+				},
+				{
+					"identifier": "c29",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b4",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 127,
+			"src": "/icons/buildings/b5.png",
+			"description": "Solar Panel",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c15",
+					"amount": 10
+				},
+				{
+					"identifier": "c18",
+					"amount": 10
+				},
+				{
+					"identifier": "c143",
+					"amount": 5
+				}
+			],
+			"products": [
+				{
+					"identifier": "b5",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 128,
+			"src": "/icons/buildings/b6.png",
+			"description": "Geothermal Power Station",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 15
+				},
+				{
+					"identifier": "c15",
+					"amount": 20
+				},
+				{
+					"identifier": "c44",
+					"amount": 4
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b6",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 129,
+			"src": "/icons/buildings/b7.png",
+			"description": "Mini Fusion Power Plant",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 12
+				},
+				{
+					"identifier": "c73",
+					"amount": 10
+				},
+				{
+					"identifier": "c51",
+					"amount": 8
+				},
+				{
+					"identifier": "c60",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b7",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 130,
+			"src": "/icons/buildings/b8.png",
+			"description": "Energy Exchanger",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 40
+				},
+				{
+					"identifier": "c42",
+					"amount": 40
+				},
+				{
+					"identifier": "c60",
+					"amount": 40
+				},
+				{
+					"identifier": "c74",
+					"amount": 8
+				}
+			],
+			"products": [
+				{
+					"identifier": "b8",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 15
+		},
+		{
+			"id": 131,
+			"src": "/icons/buildings/b9.png",
+			"description": "Accumulator",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 6
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				},
+				{
+					"identifier": "c32",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "b9",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 132,
+			"src": "/icons/buildings/b10.png",
+			"description": "Full Accumulator",
+			"produced_by": "b8",
+			"ingredients": [
+				{
+					"identifier": "b9",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b10",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 133,
+			"src": "/icons/buildings/b11.png",
+			"description": "Ray Receiver",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 20
+				},
+				{
+					"identifier": "c18",
+					"amount": 20
+				},
+				{
+					"identifier": "c44",
+					"amount": 10
+				},
+				{
+					"identifier": "c60",
+					"amount": 5
+				},
+				{
+					"identifier": "c73",
+					"amount": 20
+				}
+			],
+			"products": [
+				{
+					"identifier": "b11",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 134,
+			"src": "/icons/buildings/b12.png",
+			"description": "Artificial Star",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 20
+				},
+				{
+					"identifier": "c92",
+					"amount": 20
+				},
+				{
+					"identifier": "c38",
+					"amount": 10
+				},
+				{
+					"identifier": "c66",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "b12",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 30
+		},
+		{
+			"id": 135,
+			"src": "/icons/buildings/b13.png",
+			"description": "Conveyer Belt Mk.1",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 2
+				},
+				{
+					"identifier": "c56",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b13",
+					"amount": 3
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 136,
+			"src": "/icons/buildings/b14.png",
+			"description": "Conveyer Belt Mk.2",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b13",
+					"amount": 3
+				},
+				{
+					"identifier": "c59",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b14",
+					"amount": 3
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 137,
+			"src": "/icons/buildings/b15.png",
+			"description": "Conveyer Belt Mk.3",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b14",
+					"amount": 3
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				},
+				{
+					"identifier": "c37",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b15",
+					"amount": 3
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 138,
+			"src": "/icons/buildings/b16.png",
+			"description": "Splitter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 3
+				},
+				{
+					"identifier": "c56",
+					"amount": 2
+				},
+				{
+					"identifier": "c43",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b16",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 139,
+			"src": "/icons/buildings/b17.png",
+			"description": "Automatic Piler",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 3
+				},
+				{
+					"identifier": "c56",
+					"amount": 4
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b17",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 140,
+			"src": "/icons/buildings/b18.png",
+			"description": "Traffic Monitor",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 3
+				},
+				{
+					"identifier": "c56",
+					"amount": 2
+				},
+				{
+					"identifier": "c30",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b18",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 141,
+			"src": "/icons/buildings/b19.png",
+			"description": "Spray Coater",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 4
+				},
+				{
+					"identifier": "c57",
+					"amount": 2
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c46",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b19",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 142,
+			"src": "/icons/buildings/b20.png",
+			"description": "Storage Mk.1",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 4
+				},
+				{
+					"identifier": "c16",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b20",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 143,
+			"src": "/icons/buildings/b21.png",
+			"description": "Storage Mk.2",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b42",
+					"amount": 8
+				},
+				{
+					"identifier": "b16",
+					"amount": 8
+				}
+			],
+			"products": [
+				{
+					"identifier": "b21",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 144,
+			"src": "/icons/buildings/b22.png",
+			"description": "Storage Tank",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 8
+				},
+				{
+					"identifier": "c16",
+					"amount": 4
+				},
+				{
+					"identifier": "c30",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b22",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 145,
+			"src": "/icons/buildings/b23.png",
+			"description": "Logistics Distributor",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 8
+				},
+				{
+					"identifier": "c57",
+					"amount": 4
+				},
+				{
+					"identifier": "c60",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b23",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 146,
+			"src": "/icons/buildings/b24.png",
+			"description": "Planetary Logistics Station",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 40
+				},
+				{
+					"identifier": "c19",
+					"amount": 40
+				},
+				{
+					"identifier": "c60",
+					"amount": 40
+				},
+				{
+					"identifier": "c74",
+					"amount": 20
+				}
+			],
+			"products": [
+				{
+					"identifier": "b24",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 20
+		},
+		{
+			"id": 147,
+			"src": "/icons/buildings/b25.png",
+			"description": "Interstellar Logistics Station",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b24",
+					"amount": 1
+				},
+				{
+					"identifier": "c33",
+					"amount": 40
+				},
+				{
+					"identifier": "c74",
+					"amount": 20
+				}
+			],
+			"products": [
+				{
+					"identifier": "b25",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 30
+		},
+		{
+			"id": 148,
+			"src": "/icons/buildings/b26.png",
+			"description": "Orbital Collector",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b25",
+					"amount": 1
+				},
+				{
+					"identifier": "c73",
+					"amount": 50
+				},
+				{
+					"identifier": "c72",
+					"amount": 20
+				},
+				{
+					"identifier": "b10",
+					"amount": 20
+				}
+			],
+			"products": [
+				{
+					"identifier": "b26",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 30
+		},
+		{
+			"id": 149,
+			"src": "/icons/buildings/b27.png",
+			"description": "Sorter Mk.1",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 1
+				},
+				{
+					"identifier": "c43",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b27",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 150,
+			"src": "/icons/buildings/b28.png",
+			"description": "Sorter Mk.2",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b27",
+					"amount": 2
+				},
+				{
+					"identifier": "c45",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b28",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 151,
+			"src": "/icons/buildings/b29.png",
+			"description": "Sorter Mk.3",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b28",
+					"amount": 2
+				},
+				{
+					"identifier": "c59",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b29",
+					"amount": 2
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 152,
+			"src": "/icons/buildings/b30.png",
+			"description": "Pile Sorter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b29",
+					"amount": 2
+				},
+				{
+					"identifier": "c73",
+					"amount": 1
+				},
+				{
+					"identifier": "c60",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "c103",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 1
+		},
+		{
+			"id": 153,
+			"src": "/icons/buildings/b31.png",
+			"description": "Mining Machine",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 4
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c29",
+					"amount": 2
+				},
+				{
+					"identifier": "c56",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b31",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 154,
+			"src": "/icons/buildings/b32.png",
+			"description": "Advanced Mining Machine",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 20
+				},
+				{
+					"identifier": "c92",
+					"amount": 10
+				},
+				{
+					"identifier": "c73",
+					"amount": 10
+				},
+				{
+					"identifier": "c66",
+					"amount": 4
+				},
+				{
+					"identifier": "c41",
+					"amount": 40
+				}
+			],
+			"products": [
+				{
+					"identifier": "b32",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 20
+		},
+		{
+			"id": 155,
+			"src": "/icons/buildings/b33.png",
+			"description": "Water Pump",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 8
+				},
+				{
+					"identifier": "c16",
+					"amount": 4
+				},
+				{
+					"identifier": "c45",
+					"amount": 4
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b33",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 156,
+			"src": "/icons/buildings/b34.png",
+			"description": "Oil Extractor",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 12
+				},
+				{
+					"identifier": "c16",
+					"amount": 12
+				},
+				{
+					"identifier": "c43",
+					"amount": 6
+				},
+				{
+					"identifier": "c57",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b34",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 157,
+			"src": "/icons/buildings/b35.png",
+			"description": "Oil Refinery",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 10
+				},
+				{
+					"identifier": "c16",
+					"amount": 10
+				},
+				{
+					"identifier": "c43",
+					"amount": 6
+				},
+				{
+					"identifier": "c57",
+					"amount": 6
+				}
+			],
+			"products": [
+				{
+					"identifier": "b35",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 158,
+			"src": "/icons/buildings/b36.png",
+			"description": "Fractionator",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 8
+				},
+				{
+					"identifier": "c16",
+					"amount": 4
+				},
+				{
+					"identifier": "c30",
+					"amount": 4
+				},
+				{
+					"identifier": "c60",
+					"amount": 1
+				}
+			],
+			"products": [
+				{
+					"identifier": "b36",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 159,
+			"src": "/icons/buildings/b37.png",
+			"description": "Chemical Plant",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 8
+				},
+				{
+					"identifier": "c16",
+					"amount": 8
+				},
+				{
+					"identifier": "c30",
+					"amount": 8
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b37",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 160,
+			"src": "/icons/buildings/b38.png",
+			"description": "Quantum Chemical Plant",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b37",
+					"amount": 1
+				},
+				{
+					"identifier": "c64",
+					"amount": 10
+				},
+				{
+					"identifier": "c49",
+					"amount": 3
+				},
+				{
+					"identifier": "c66",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "b38",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 161,
+			"src": "/icons/buildings/b39.png",
+			"description": "Miniature Particle Collider",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 20
+				},
+				{
+					"identifier": "c92",
+					"amount": 20
+				},
+				{
+					"identifier": "c73",
+					"amount": 25
+				},
+				{
+					"identifier": "c37",
+					"amount": 10
+				},
+				{
+					"identifier": "c60",
+					"amount": 8
+				}
+			],
+			"products": [
+				{
+					"identifier": "b39",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 15
+		},
+		{
+			"id": 162,
+			"src": "/icons/buildings/b40.png",
+			"description": "Arc Smelter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 4
+				},
+				{
+					"identifier": "c16",
+					"amount": 2
+				},
+				{
+					"identifier": "c43",
+					"amount": 4
+				},
+				{
+					"identifier": "c29",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b40",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 163,
+			"src": "/icons/buildings/b41.png",
+			"description": "Plane Smelter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b40",
+					"amount": 1
+				},
+				{
+					"identifier": "c92",
+					"amount": 5
+				},
+				{
+					"identifier": "c65",
+					"amount": 4
+				},
+				{
+					"identifier": "c69",
+					"amount": 15
+				}
+			],
+			"products": [
+				{
+					"identifier": "b41",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 164,
+			"src": "/icons/buildings/b42.png",
+			"description": "Negetropy Smelter",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b41",
+					"amount": 1
+				},
+				{
+					"identifier": "c107",
+					"amount": 10
+				},
+				{
+					"identifier": "c105",
+					"amount": 30
+				},
+				{
+					"identifier": "c66",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b42",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 165,
+			"src": "/icons/buildings/b43.png",
+			"description": "Assembler Machine Mk.1",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 4
+				},
+				{
+					"identifier": "c56",
+					"amount": 8
+				},
+				{
+					"identifier": "c43",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b43",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 2
+		},
+		{
+			"id": 166,
+			"src": "/icons/buildings/b44.png",
+			"description": "Assembler Machine Mk.2",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b43",
+					"amount": 1
+				},
+				{
+					"identifier": "c37",
+					"amount": 8
+				},
+				{
+					"identifier": "c60",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b44",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 167,
+			"src": "/icons/buildings/b45.png",
+			"description": "Assembler Machine Mk.3",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b44",
+					"amount": 1
+				},
+				{
+					"identifier": "c52",
+					"amount": 8
+				},
+				{
+					"identifier": "c66",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b45",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 168,
+			"src": "/icons/buildings/b46.png",
+			"description": "Re-composing Assembler",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b45",
+					"amount": 1
+				},
+				{
+					"identifier": "c108",
+					"amount": 10
+				},
+				{
+					"identifier": "c105",
+					"amount": 30
+				},
+				{
+					"identifier": "c66",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b46",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 169,
+			"src": "/icons/buildings/b47.png",
+			"description": "Matrix Lab",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 8
+				},
+				{
+					"identifier": "c30",
+					"amount": 4
+				},
+				{
+					"identifier": "c43",
+					"amount": 4
+				},
+				{
+					"identifier": "c29",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b47",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 3
+		},
+		{
+			"id": 170,
+			"src": "/icons/buildings/b48.png",
+			"description": "Self-evolution Lab",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b47",
+					"amount": 1
+				},
+				{
+					"identifier": "c106",
+					"amount": 10
+				},
+				{
+					"identifier": "c104",
+					"amount": 20
+				},
+				{
+					"identifier": "c66",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b48",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 171,
+			"src": "/icons/buildings/b49.png",
+			"description": "EM-Rail Ejector",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 20
+				},
+				{
+					"identifier": "c56",
+					"amount": 20
+				},
+				{
+					"identifier": "c60",
+					"amount": 5
+				},
+				{
+					"identifier": "c73",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "b49",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 172,
+			"src": "/icons/buildings/b50.png",
+			"description": "Vertical Launching Silo",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 80
+				},
+				{
+					"identifier": "c92",
+					"amount": 30
+				},
+				{
+					"identifier": "c88",
+					"amount": 20
+				},
+				{
+					"identifier": "c66",
+					"amount": 10
+				}
+			],
+			"products": [
+				{
+					"identifier": "b50",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 30
+		},
+		{
+			"id": 173,
+			"src": "/icons/buildings/b51.png",
+			"description": "Gauss Turret",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c14",
+					"amount": 8
+				},
+				{
+					"identifier": "c56",
+					"amount": 8
+				},
+				{
+					"identifier": "c43",
+					"amount": 2
+				},
+				{
+					"identifier": "c29",
+					"amount": 4
+				}
+			],
+			"products": [
+				{
+					"identifier": "b51",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 4
+		},
+		{
+			"id": 174,
+			"src": "/icons/buildings/b52.png",
+			"description": "Missile Turret",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 8
+				},
+				{
+					"identifier": "c45",
+					"amount": 6
+				},
+				{
+					"identifier": "c43",
+					"amount": 12
+				},
+				{
+					"identifier": "c70",
+					"amount": 6
+				}
+			],
+			"products": [
+				{
+					"identifier": "b52",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 175,
+			"src": "/icons/buildings/b53.png",
+			"description": "Implosion Cannon",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 10
+				},
+				{
+					"identifier": "c45",
+					"amount": 8
+				},
+				{
+					"identifier": "c43",
+					"amount": 10
+				},
+				{
+					"identifier": "c73",
+					"amount": 2
+				}
+			],
+			"products": [
+				{
+					"identifier": "b53",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 176,
+			"src": "/icons/buildings/b54.png",
+			"description": "Laser Turret",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 9
+				},
+				{
+					"identifier": "c57",
+					"amount": 6
+				},
+				{
+					"identifier": "c43",
+					"amount": 6
+				},
+				{
+					"identifier": "c44",
+					"amount": 9
+				}
+			],
+			"products": [
+				{
+					"identifier": "b54",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 177,
+			"src": "/icons/buildings/b55.png",
+			"description": "Plasma Turret",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c33",
+					"amount": 20
+				},
+				{
+					"identifier": "c64",
+					"amount": 10
+				},
+				{
+					"identifier": "c73",
+					"amount": 10
+				},
+				{
+					"identifier": "c57",
+					"amount": 5
+				},
+				{
+					"identifier": "c60",
+					"amount": 5
+				}
+			],
+			"products": [
+				{
+					"identifier": "b55",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 10
+		},
+		{
+			"id": 178,
+			"src": "/icons/buildings/b56.png",
+			"description": "SR Plasma Turret",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 15
+				},
+				{
+					"identifier": "c73",
+					"amount": 5
+				},
+				{
+					"identifier": "c57",
+					"amount": 5
+				},
+				{
+					"identifier": "c60",
+					"amount": 5
+				}
+			],
+			"products": [
+				{
+					"identifier": "b56",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 8
+		},
+		{
+			"id": 179,
+			"src": "/icons/buildings/b57.png",
+			"description": "Battlefield Analysis Base",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 12
+				},
+				{
+					"identifier": "c43",
+					"amount": 18
+				},
+				{
+					"identifier": "c46",
+					"amount": 6
+				},
+				{
+					"identifier": "c70",
+					"amount": 12
+				}
+			],
+			"products": [
+				{
+					"identifier": "b57",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 180,
+			"src": "/icons/buildings/b58.png",
+			"description": "Jammer Tower",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c15",
+					"amount": 12
+				},
+				{
+					"identifier": "c57",
+					"amount": 9
+				},
+				{
+					"identifier": "c50",
+					"amount": 6
+				},
+				{
+					"identifier": "c60",
+					"amount": 3
+				}
+			],
+			"products": [
+				{
+					"identifier": "b58",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 5
+		},
+		{
+			"id": 181,
+			"src": "/icons/buildings/b59.png",
+			"description": "Signal Tower",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "b1",
+					"amount": 2
+				},
+				{
+					"identifier": "c42",
+					"amount": 12
+				},
+				{
+					"identifier": "c32",
+					"amount": 6
+				}
+			],
+			"products": [
+				{
+					"identifier": "b59",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 6
+		},
+		{
+			"id": 182,
+			"src": "/icons/buildings/b60.png",
+			"description": "Planetary Shield Generator",
+			"produced_by": "assemblers",
+			"ingredients": [
+				{
+					"identifier": "c42",
+					"amount": 20
+				},
+				{
+					"identifier": "c59",
+					"amount": 20
+				},
+				{
+					"identifier": "c73",
+					"amount": 5
+				},
+				{
+					"identifier": "c74",
+					"amount": 5
+				}
+			],
+			"products": [
+				{
+					"identifier": "b60",
+					"amount": 1
+				}
+			],
+			"base_time_secs": 30
 		}
 	]
 }
