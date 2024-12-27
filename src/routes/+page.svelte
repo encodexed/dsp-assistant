@@ -1,7 +1,6 @@
 <script lang="ts">
 	import OutputForm from '$lib/components/OutputForm.svelte';
 	import OutputTable from '$lib/components/OutputTable.svelte';
-	import CollapsibleWrapper from '$lib/components/UI/CollapsibleWrapper.svelte';
 	import calculateSteps from '$lib/utils/calculateSteps';
 	import stackInputs from '$lib/utils/stackInputs';
 	import { outputStore, inputStore, buildingSelections } from '$lib/utils/state.svelte';
@@ -32,9 +31,7 @@
 <main class="flex h-full w-full flex-col items-center gap-2 text-sm text-stone-100">
 	<h1 class="bold text-center text-3xl">DSP</h1>
 	<p>What are you trying to achieve today?</p>
-	<CollapsibleWrapper heading="Output" h={250}>
-		<OutputForm {handleCalculate} />
-	</CollapsibleWrapper>
+	<OutputForm {handleCalculate} />
 	{#if inputStore.ui}
 		<OutputTable />
 	{/if}
