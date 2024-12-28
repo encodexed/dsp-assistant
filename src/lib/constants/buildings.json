@@ -118,7 +118,7 @@
 			"speed_multiplier": 1,
 			"from_recipes": [136],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b5.png"
+			"src": "/icons/buildings/b14.png"
 		},
 		{
 			"id": 15,
@@ -126,7 +126,7 @@
 			"speed_multiplier": 1,
 			"from_recipes": [137],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b5.png"
+			"src": "/icons/buildings/b15.png"
 		},
 		{
 			"id": 16,
