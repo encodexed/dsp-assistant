@@ -4,489 +4,695 @@
 			"id": 0,
 			"name": "Tesla Tower",
 			"speed_multiplier": 1,
-			"from_recipes": [122],
+			"from_recipes": [
+				122
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b0.png"
+			"src": "/icons/buildings/b0.png",
+			"available_recipes": []
 		},
 		{
 			"id": 1,
 			"name": "Wireless Power Tower",
 			"speed_multiplier": 1,
-			"from_recipes": [123],
+			"from_recipes": [
+				123
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b1.png"
+			"src": "/icons/buildings/b1.png",
+			"available_recipes": []
 		},
 		{
 			"id": 2,
 			"name": "Satellite Substation",
 			"speed_multiplier": 1,
-			"from_recipes": [124],
+			"from_recipes": [
+				124
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b2.png"
+			"src": "/icons/buildings/b2.png",
+			"available_recipes": []
 		},
 		{
 			"id": 3,
 			"name": "Wind Turbine",
 			"speed_multiplier": 1,
-			"from_recipes": [125],
+			"from_recipes": [
+				125
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b3.png"
+			"src": "/icons/buildings/b3.png",
+			"available_recipes": []
 		},
 		{
 			"id": 4,
 			"name": "Thermal Power Plant",
 			"speed_multiplier": 1,
-			"from_recipes": [126],
+			"from_recipes": [
+				126
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b4.png"
+			"src": "/icons/buildings/b4.png",
+			"available_recipes": []
 		},
 		{
 			"id": 5,
 			"name": "Solar Panel",
 			"speed_multiplier": 1,
-			"from_recipes": [127],
+			"from_recipes": [
+				127
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b5.png"
+			"src": "/icons/buildings/b5.png",
+			"available_recipes": []
 		},
 		{
 			"id": 6,
 			"name": "Geothermal Power Station",
 			"speed_multiplier": 1,
-			"from_recipes": [128],
+			"from_recipes": [
+				128
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b6.png"
+			"src": "/icons/buildings/b6.png",
+			"available_recipes": []
 		},
 		{
 			"id": 7,
 			"name": "Mini Fusion Power Plant",
 			"speed_multiplier": 1,
-			"from_recipes": [129],
+			"from_recipes": [
+				129
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b7.png"
+			"src": "/icons/buildings/b7.png",
+			"available_recipes": []
 		},
 		{
 			"id": 8,
 			"name": "Energy Exchanger",
 			"speed_multiplier": 1,
-			"from_recipes": [130],
+			"from_recipes": [
+				130
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b8.png"
+			"src": "/icons/buildings/b8.png",
+			"available_recipes": [
+				132
+			]
 		},
 		{
 			"id": 9,
 			"name": "Accumulator",
 			"speed_multiplier": 1,
-			"from_recipes": [131],
+			"from_recipes": [
+				131
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b9.png"
+			"src": "/icons/buildings/b9.png",
+			"available_recipes": []
 		},
 		{
 			"id": 10,
 			"name": "Full Accumulator",
 			"speed_multiplier": 1,
-			"from_recipes": [132],
+			"from_recipes": [
+				132
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b10.png"
+			"src": "/icons/buildings/b10.png",
+			"available_recipes": []
 		},
 		{
 			"id": 11,
 			"name": "Ray Receiver",
 			"speed_multiplier": 1,
-			"from_recipes": [133],
+			"from_recipes": [
+				133
+			],
 			"power_usage_kW": 0,
-			"src": "/icons/buildings/b11.png"
+			"src": "/icons/buildings/b11.png",
+			"available_recipes": [
+				19
+			]
 		},
 		{
 			"id": 12,
 			"name": "Artificial Star",
 			"speed_multiplier": 1,
-			"from_recipes": [134],
+			"from_recipes": [
+				134
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b12.png"
+			"src": "/icons/buildings/b12.png",
+			"available_recipes": []
 		},
 		{
 			"id": 13,
 			"name": "Conveyer Belt Mk.1",
 			"speed_multiplier": 1,
-			"from_recipes": [135],
+			"from_recipes": [
+				135
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b13.png"
+			"src": "/icons/buildings/b13.png",
+			"available_recipes": []
 		},
 		{
 			"id": 14,
 			"name": "Conveyer Belt Mk.2",
 			"speed_multiplier": 1,
-			"from_recipes": [136],
+			"from_recipes": [
+				136
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b14.png"
+			"src": "/icons/buildings/b14.png",
+			"available_recipes": []
 		},
 		{
 			"id": 15,
 			"name": "Conveyer Belt Mk.3",
 			"speed_multiplier": 1,
-			"from_recipes": [137],
+			"from_recipes": [
+				137
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b15.png"
+			"src": "/icons/buildings/b15.png",
+			"available_recipes": []
 		},
 		{
 			"id": 16,
 			"name": "Splitter",
 			"speed_multiplier": 1,
-			"from_recipes": [138],
+			"from_recipes": [
+				138
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b16.png"
+			"src": "/icons/buildings/b16.png",
+			"available_recipes": []
 		},
 		{
 			"id": 17,
 			"name": "Automatic Piler",
 			"speed_multiplier": 1,
-			"from_recipes": [139],
+			"from_recipes": [
+				139
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b17.png"
+			"src": "/icons/buildings/b17.png",
+			"available_recipes": []
 		},
 		{
 			"id": 18,
 			"name": "Traffic Monitor",
 			"speed_multiplier": 1,
-			"from_recipes": [140],
+			"from_recipes": [
+				140
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b18.png"
+			"src": "/icons/buildings/b18.png",
+			"available_recipes": []
 		},
 		{
 			"id": 19,
 			"name": "Spray Coater",
 			"speed_multiplier": 1,
-			"from_recipes": [141],
+			"from_recipes": [
+				141
+			],
 			"power_usage_kW": 90,
-			"src": "/icons/buildings/b19.png"
+			"src": "/icons/buildings/b19.png",
+			"available_recipes": []
 		},
 		{
 			"id": 20,
 			"name": "Storage Mk.1",
 			"speed_multiplier": 1,
-			"from_recipes": [142],
+			"from_recipes": [
+				142
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b20.png"
+			"src": "/icons/buildings/b20.png",
+			"available_recipes": []
 		},
 		{
 			"id": 21,
 			"name": "Storage Mk.2",
 			"speed_multiplier": 1,
-			"from_recipes": [143],
+			"from_recipes": [
+				143
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b21.png"
+			"src": "/icons/buildings/b21.png",
+			"available_recipes": []
 		},
 		{
 			"id": 22,
 			"name": "Storage Tank",
 			"speed_multiplier": 1,
-			"from_recipes": [144],
+			"from_recipes": [
+				144
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b22.png"
+			"src": "/icons/buildings/b22.png",
+			"available_recipes": []
 		},
 		{
 			"id": 23,
 			"name": "Logistics Distributor",
 			"speed_multiplier": 1,
-			"from_recipes": [145],
+			"from_recipes": [
+				145
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b23.png"
+			"src": "/icons/buildings/b23.png",
+			"available_recipes": []
 		},
 		{
 			"id": 24,
 			"name": "Planetary Logistics Station",
 			"speed_multiplier": 1,
-			"from_recipes": [146],
+			"from_recipes": [
+				146
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b24.png"
+			"src": "/icons/buildings/b24.png",
+			"available_recipes": []
 		},
 		{
 			"id": 25,
 			"name": "Interstellar Logistics Station",
 			"speed_multiplier": 1,
-			"from_recipes": [147],
+			"from_recipes": [
+				147
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b25.png"
+			"src": "/icons/buildings/b25.png",
+			"available_recipes": []
 		},
 		{
 			"id": 26,
 			"name": "Orbital Collector",
 			"speed_multiplier": 1,
-			"from_recipes": [148],
+			"from_recipes": [
+				148
+			],
 			"power_usage_kW": 30,
-			"src": "/icons/buildings/b26.png"
+			"src": "/icons/buildings/b26.png",
+			"available_recipes": [
+				14,
+				17,
+				100
+			]
 		},
 		{
 			"id": 27,
 			"name": "Sorter Mk.1",
 			"speed_multiplier": 1,
-			"from_recipes": [149],
+			"from_recipes": [
+				149
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b27.png"
+			"src": "/icons/buildings/b27.png",
+			"available_recipes": []
 		},
 		{
 			"id": 28,
 			"name": "Sorter Mk.2",
 			"speed_multiplier": 1,
-			"from_recipes": [150],
+			"from_recipes": [
+				150
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b28.png"
+			"src": "/icons/buildings/b28.png",
+			"available_recipes": []
 		},
 		{
 			"id": 29,
 			"name": "Sorter Mk.3",
 			"speed_multiplier": 1,
-			"from_recipes": [151],
+			"from_recipes": [
+				151
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b29.png"
+			"src": "/icons/buildings/b29.png",
+			"available_recipes": []
 		},
 		{
 			"id": 30,
 			"name": "Pile Sorter",
 			"speed_multiplier": 1,
-			"from_recipes": [152],
+			"from_recipes": [
+				152
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b30.png"
+			"src": "/icons/buildings/b30.png",
+			"available_recipes": []
 		},
 		{
 			"id": 31,
 			"name": "Mining Machine",
 			"speed_multiplier": 1,
-			"from_recipes": [153],
+			"from_recipes": [
+				153
+			],
 			"power_usage_kW": 420,
-			"src": "/icons/buildings/b31.png"
+			"src": "/icons/buildings/b31.png",
+			"available_recipes": []
 		},
 		{
 			"id": 32,
 			"name": "Advanced Mining Machine",
 			"speed_multiplier": 2,
-			"from_recipes": [154],
+			"from_recipes": [
+				154
+			],
 			"power_usage_kW": 2940,
-			"src": "/icons/buildings/b32.png"
+			"src": "/icons/buildings/b32.png",
+			"available_recipes": []
 		},
 		{
 			"id": 33,
 			"name": "Water Pump",
 			"speed_multiplier": 1,
-			"from_recipes": [155],
+			"from_recipes": [
+				155
+			],
 			"power_usage_kW": 300,
-			"src": "/icons/buildings/b33.png"
+			"src": "/icons/buildings/b33.png",
+			"available_recipes": [
+				8,
+				26
+			]
 		},
 		{
 			"id": 34,
 			"name": "Oil Extractor",
 			"speed_multiplier": 1,
-			"from_recipes": [156],
+			"from_recipes": [
+				156
+			],
 			"power_usage_kW": 840,
-			"src": "/icons/buildings/b34.png"
+			"src": "/icons/buildings/b34.png",
+			"available_recipes": [
+				9
+			]
 		},
 		{
 			"id": 35,
 			"name": "Oil Refinery",
 			"speed_multiplier": 1,
-			"from_recipes": [157],
+			"from_recipes": [
+				157
+			],
 			"power_usage_kW": 960,
-			"src": "/icons/buildings/b35.png"
+			"src": "/icons/buildings/b35.png",
+			"available_recipes": [
+				10,
+				12,
+				28
+			]
 		},
 		{
 			"id": 36,
 			"name": "Fractionator",
 			"speed_multiplier": 1,
-			"from_recipes": [158],
+			"from_recipes": [
+				158
+			],
 			"power_usage_kW": 720,
-			"src": "/icons/buildings/b36.png"
+			"src": "/icons/buildings/b36.png",
+			"available_recipes": [
+				15
+			]
 		},
 		{
 			"id": 37,
 			"name": "Chemical Plant",
 			"speed_multiplier": 1,
-			"from_recipes": [159],
+			"from_recipes": [
+				159
+			],
 			"power_usage_kW": 720,
-			"src": "/icons/buildings/b37.png"
+			"src": "/icons/buildings/b37.png",
+			"available_recipes": []
 		},
 		{
 			"id": 38,
 			"name": "Quantum Chemical Plant",
 			"speed_multiplier": 1,
-			"from_recipes": [160],
+			"from_recipes": [
+				160
+			],
 			"power_usage_kW": 2160,
-			"src": "/icons/buildings/b38.png"
+			"src": "/icons/buildings/b38.png",
+			"available_recipes": []
 		},
 		{
 			"id": 39,
 			"name": "Miniature Particle Collider",
 			"speed_multiplier": 1,
-			"from_recipes": [161],
+			"from_recipes": [
+				161
+			],
 			"power_usage_kW": 12000,
-			"src": "/icons/buildings/b39.png"
+			"src": "/icons/buildings/b39.png",
+			"available_recipes": [
+				13,
+				16,
+				61
+			]
 		},
 		{
 			"id": 40,
 			"name": "Arc Smelter",
 			"speed_multiplier": 1,
-			"from_recipes": [162],
+			"from_recipes": [
+				162
+			],
 			"power_usage_kW": 360,
-			"src": "/icons/buildings/b40.png"
+			"src": "/icons/buildings/b40.png",
+			"available_recipes": []
 		},
 		{
 			"id": 41,
 			"name": "Plane Smelter",
 			"speed_multiplier": 2,
-			"from_recipes": [163],
+			"from_recipes": [
+				163
+			],
 			"power_usage_kW": 1440,
-			"src": "/icons/buildings/b41.png"
+			"src": "/icons/buildings/b41.png",
+			"available_recipes": []
 		},
 		{
 			"id": 42,
 			"name": "Negentropy Smelter",
 			"speed_multiplier": 3,
-			"from_recipes": [164],
+			"from_recipes": [
+				164
+			],
 			"power_usage_kW": 2880,
-			"src": "/icons/buildings/b42.png"
+			"src": "/icons/buildings/b42.png",
+			"available_recipes": []
 		},
 		{
 			"id": 43,
 			"name": "Assembling Machine Mk.1",
 			"speed_multiplier": 0.75,
-			"from_recipes": [165],
+			"from_recipes": [
+				165
+			],
 			"power_usage_kW": 270,
-			"src": "/icons/buildings/b43.png"
+			"src": "/icons/buildings/b43.png",
+			"available_recipes": []
 		},
 		{
 			"id": 44,
 			"name": "Assembling Machine Mk.2",
 			"speed_multiplier": 1,
-			"from_recipes": [166],
+			"from_recipes": [
+				166
+			],
 			"power_usage_kW": 540,
-			"src": "/icons/buildings/b44.png"
+			"src": "/icons/buildings/b44.png",
+			"available_recipes": []
 		},
 		{
 			"id": 45,
 			"name": "Assembling Machine Mk.3",
 			"speed_multiplier": 1.5,
-			"from_recipes": [167],
+			"from_recipes": [
+				167
+			],
 			"power_usage_kW": 1080,
-			"src": "/icons/buildings/b45.png"
+			"src": "/icons/buildings/b45.png",
+			"available_recipes": []
 		},
 		{
 			"id": 46,
 			"name": "Re-composing Assembler",
 			"speed_multiplier": 3,
-			"from_recipes": [168],
+			"from_recipes": [
+				168
+			],
 			"power_usage_kW": 2700,
-			"src": "/icons/buildings/b46.png"
+			"src": "/icons/buildings/b46.png",
+			"available_recipes": []
 		},
 		{
 			"id": 47,
 			"name": "Matrix Lab",
 			"speed_multiplier": 1,
-			"from_recipes": [169],
+			"from_recipes": [
+				169
+			],
 			"power_usage_kW": 480,
-			"src": "/icons/buildings/b47.png"
+			"src": "/icons/buildings/b47.png",
+			"available_recipes": []
 		},
 		{
 			"id": 48,
 			"name": "Self-evolution Lab",
 			"speed_multiplier": 3,
-			"from_recipes": [170],
+			"from_recipes": [
+				170
+			],
 			"power_usage_kW": 1920,
-			"src": "/icons/buildings/b48.png"
+			"src": "/icons/buildings/b48.png",
+			"available_recipes": []
 		},
 		{
 			"id": 49,
 			"name": "EM-Rail Ejector",
 			"speed_multiplier": 1,
-			"from_recipes": [171],
+			"from_recipes": [
+				171
+			],
 			"power_usage_kW": 1800,
-			"src": "/icons/buildings/b49.png"
+			"src": "/icons/buildings/b49.png",
+			"available_recipes": []
 		},
 		{
 			"id": 50,
 			"name": "Vertical Launching Silo",
 			"speed_multiplier": 1,
-			"from_recipes": [172],
+			"from_recipes": [
+				172
+			],
 			"power_usage_kW": 18000,
-			"src": "/icons/buildings/b50.png"
+			"src": "/icons/buildings/b50.png",
+			"available_recipes": []
 		},
 		{
 			"id": 51,
 			"name": "Gauss Turret",
 			"speed_multiplier": 1,
-			"from_recipes": [173],
+			"from_recipes": [
+				173
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b51.png"
+			"src": "/icons/buildings/b51.png",
+			"available_recipes": []
 		},
 		{
 			"id": 52,
 			"name": "Missile Turret",
 			"speed_multiplier": 1,
-			"from_recipes": [174],
+			"from_recipes": [
+				174
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b52.png"
+			"src": "/icons/buildings/b52.png",
+			"available_recipes": []
 		},
 		{
 			"id": 53,
 			"name": "Implosion Cannon",
 			"speed_multiplier": 1,
-			"from_recipes": [175],
+			"from_recipes": [
+				175
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b53.png"
+			"src": "/icons/buildings/b53.png",
+			"available_recipes": []
 		},
 		{
 			"id": 54,
 			"name": "Laser Turret",
 			"speed_multiplier": 1,
-			"from_recipes": [176],
+			"from_recipes": [
+				176
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b54.png"
+			"src": "/icons/buildings/b54.png",
+			"available_recipes": []
 		},
 		{
 			"id": 55,
 			"name": "Plasma Turret",
 			"speed_multiplier": 1,
-			"from_recipes": [177],
+			"from_recipes": [
+				177
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b55.png"
+			"src": "/icons/buildings/b55.png",
+			"available_recipes": []
 		},
 		{
 			"id": 56,
 			"name": "SR Plasma Turret",
 			"speed_multiplier": 1,
-			"from_recipes": [178],
+			"from_recipes": [
+				178
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b56.png"
+			"src": "/icons/buildings/b56.png",
+			"available_recipes": []
 		},
 		{
 			"id": 57,
 			"name": "Battlefield Analysis Base",
 			"speed_multiplier": 1,
-			"from_recipes": [179],
+			"from_recipes": [
+				179
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b57.png"
+			"src": "/icons/buildings/b57.png",
+			"available_recipes": []
 		},
 		{
 			"id": 58,
 			"name": "Jammer Tower",
 			"speed_multiplier": 1,
-			"from_recipes": [180],
+			"from_recipes": [
+				180
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b58.png"
+			"src": "/icons/buildings/b58.png",
+			"available_recipes": []
 		},
 		{
 			"id": 59,
 			"name": "Signal Tower",
 			"speed_multiplier": 1,
-			"from_recipes": [181],
+			"from_recipes": [
+				181
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b59.png"
+			"src": "/icons/buildings/b59.png",
+			"available_recipes": []
 		},
 		{
 			"id": 60,
 			"name": "Planetary Shield Generator",
 			"speed_multiplier": 1,
-			"from_recipes": [182],
+			"from_recipes": [
+				182
+			],
 			"power_usage_kW": null,
-			"src": "/icons/buildings/b60.png"
+			"src": "/icons/buildings/b60.png",
+			"available_recipes": []
 		},
 		{
 			"id": 61,
@@ -494,7 +700,22 @@
 			"speed_multiplier": 1.23,
 			"from_recipes": [],
 			"power_usage_kW": null,
-			"src": "/icons/components/c112.png"
+			"src": "/icons/components/c112.png",
+			"available_recipes": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				7,
+				18,
+				34,
+				47,
+				53,
+				68,
+				84,
+				99
+			]
 		}
 	]
 }

@@ -60,30 +60,3 @@ export type InputBuilding = {
 	amountRequired: number;
 	powerUsageKW: number;
 };
-
-// From JSON constants
-export type Component = {
-	id: number;
-	name: string;
-	from_recipes: number[];
-	src: string;
-};
-
-export type Recipe = {
-	id: number;
-	src: string;
-	description: string;
-	produced_by: string;
-	ingredients: Product[];
-	products: Product[];
-	base_time_secs: number;
-};
-
-export type Building = {
-	id: number;
-	name: string;
-	speed_multiplier: number;
-	from_recipes: number[];
-	power_usage_kW: number | null;
-	src: string;
-};
